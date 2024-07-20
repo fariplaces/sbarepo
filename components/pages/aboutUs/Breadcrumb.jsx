@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from "next-link";
+import Link from "next/link";
+
 function Breadcrumb() {
   const scrollTop = () => {
     window.scrollTo({
@@ -7,6 +8,7 @@ function Breadcrumb() {
       behavior: "smooth",
     });
   };
+
   return (
     <>
       <section className="breadcrumbs">
@@ -16,7 +18,9 @@ function Breadcrumb() {
               <div className="breadcrumb-wrapper">
                 <h1>About us</h1>
                 <span>
-                  <Link to={"/"}>Home</Link>
+                  <Link href="/">
+                    <a onClick={scrollTop}>Home</a>
+                  </Link>
                   <i>
                     <img
                       src={

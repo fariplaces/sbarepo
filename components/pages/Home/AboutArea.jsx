@@ -11,8 +11,10 @@ function AboutArea() {
       behavior: "smooth",
     });
   };
+
   const Singlepercentage = 85;
   const singleXmPercentage = 68;
+
   return (
     <>
       <section className="about-area sec-mar">
@@ -35,10 +37,7 @@ function AboutArea() {
                   <div className="msn-icon">
                     <i>
                       <img
-                        src={
-                          
-                          "/images/icons/mission-icon.png"
-                        }
+                        src="/images/icons/mission-icon.png"
                         alt="images"
                       />
                     </i>
@@ -51,29 +50,23 @@ function AboutArea() {
                     </p>
                   </div>
                   <div className="cto">
-                    <img
-                      src={ "/images/ctoFounder.png"}
-                      alt="imgs"
-                    />
+                    <img src="/images/ctoFounder.png" alt="imgs" />
                   </div>
                 </div>
                 <div className="cmn-btn">
-                  <Link onClick={scrollTop} href={`/about`}>About more</Link>
+                  <Link href="/about">
+                    {/* <a onClick={scrollTop}>About more</a> */}
+                    About more
+                  </Link>
                 </div>
               </div>
             </div>
             <div className="col-lg-6 col-xl-6">
               <div className="about-right">
                 <div className="group-images">
-                  <img
-                    src={ "/images/about-bottom.jpg"}
-                    alt="images"
-                  />
+                  <img src="/images/about-bottom.jpg" alt="images" />
                   <div className="about-top">
-                    <img
-                      src={ "/images/about-top.png"}
-                      alt="images"
-                    />
+                    <img src="/images/about-top.png" alt="images" />
                   </div>
                   <div className="about-skills">
                     <div className="signle-skill">
@@ -108,10 +101,7 @@ function AboutArea() {
               <div className="col-sm-6 col-md-3 col-lg-3 col-xl-3">
                 <div className="single-count">
                   <i>
-                    <img
-                      src={ "/images/icons/count-1.png"}
-                      alt="images"
-                    />
+                    <img src="/images/icons/count-1.png" alt="images" />
                   </i>
                   <div className="counter">
                     <CountUp end={250} delay={2} duration={5} /> <sup>+</sup>
@@ -122,10 +112,7 @@ function AboutArea() {
               <div className="col-sm-6 col-md-3 col-lg-3 col-xl-3">
                 <div className="single-count">
                   <i>
-                    <img
-                      src={ "/images/icons/count-2.png"}
-                      alt="images"
-                    />
+                    <img src="/images/icons/count-2.png" alt="images" />
                   </i>
                   <div className="counter">
                     <CountUp end={150} delay={1} duration={5} /> <sup>+</sup>
@@ -136,10 +123,7 @@ function AboutArea() {
               <div className="col-sm-6 col-md-3 col-lg-3 col-xl-3">
                 <div className="single-count">
                   <i>
-                    <img
-                      src={ "/images/icons/count-3.png"}
-                      alt="images"
-                    />
+                    <img src="/images/icons/count-3.png" alt="images" />
                   </i>
                   <div className="counter">
                     <CountUp end={150} delay={3} duration={5} /> <sup>+</sup>
@@ -150,10 +134,7 @@ function AboutArea() {
               <div className="col-sm-6 col-md-3 col-lg-3 col-xl-3">
                 <div className="single-count xsm">
                   <i>
-                    <img
-                      src={ "/images/icons/count-4.png"}
-                      alt="images"
-                    />
+                    <img src="/images/icons/count-4.png" alt="images" />
                   </i>
                   <div className="counter">
                     <CountUp end={100} delay={4} duration={5} /> <sup>+</sup>

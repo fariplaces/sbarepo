@@ -1,6 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
-function Breadcrumb(props) {
+import Link from "next/link";
+
+function Breadcrumb() {
+  const scrollTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <>
       <section className="breadcrumbs">
@@ -8,19 +16,21 @@ function Breadcrumb(props) {
           <div className="row">
             <div className="col-12">
               <div className="breadcrumb-wrapper">
-                <h1>{props.pageName}</h1>
+                <h1>About us</h1>
                 <span>
-                  <Link to={"/"}>Home</Link>
+                  <Link href="/">
+                    <a onClick={scrollTop}>Home</a>
+                  </Link>
                   <i>
-                    <img
+                    <image
                       src={
                         process.env.PUBLIC_URL +
-                        "/images/icons/breadcrumb-arrow.svg"
+                        "/images/about.png"
                       }
                       alt="images"
                     />
                   </i>
-                  {props.pageName}
+                  About us
                 </span>
               </div>
             </div>

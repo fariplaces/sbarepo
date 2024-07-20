@@ -4,9 +4,13 @@ import Homepage from "@/components/pages/Home/HomePage.jsx";
 
 export default function Home() {
   return (
+    <>
+    
     <Homepage />
    
-  
+  {/* <Image />   */}
+    </>
+    
 
   );
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from 'next/link';
 
 function LatesNewsArea() {
   const scrollTop = () => {
@@ -8,6 +8,7 @@ function LatesNewsArea() {
       behavior: "smooth",
     });
   };
+
   return (
     <>
       <section className="latest-news sec-mar">
@@ -16,23 +17,25 @@ function LatesNewsArea() {
             <div className="col-md-6 col-lg-4 col-xl-4">
               <div className="signle-news">
                 <div className="tag">
-                  <Link onClick={scrollTop} to={"/"}>Web Design</Link>
+                  <Link href="/" passHref>
+                    <a onClick={scrollTop}>Web Design</a>
+                  </Link>
                 </div>
-                <div className="post-img">
-                  <Link onClick={scrollTop} to={`${process.env.PUBLIC_URL}/blog-details`}>
-                    <img
-                      src={process.env.PUBLIC_URL + "/images/post/post-1.jpg"}
-                      alt="images"
-                    />
+                <div className="post-image">
+                  <Link href="/blog-details" passHref>
+                    <a onClick={scrollTop}>
+                      <img
+                        src="/images/post/post-1.jpg"
+                        alt="images"
+                      />
+                    </a>
                   </Link>
                 </div>
                 <div className="news-content">
                   <div className="author">
                     <div className="author-pic">
                       <img
-                        src={
-                          process.env.PUBLIC_URL + "images/author/author-1.jpg"
-                        }
+                        src="/images/author/author-1.jpg"
                         alt="images"
                       />
                     </div>
@@ -42,8 +45,10 @@ function LatesNewsArea() {
                     </div>
                   </div>
                   <h3>
-                    <Link onClick={scrollTop} to={`${process.env.PUBLIC_URL}/blog-details`}>
-                      Donec a porttitor phari sod tellus Nunc quis erosn.
+                    <Link href="/blog-details" passHref>
+                      <a onClick={scrollTop}>
+                        Donec a porttitor phari sod tellus Nunc quis erosn.
+                      </a>
                     </Link>
                   </h3>
                   <p>
@@ -52,8 +57,8 @@ function LatesNewsArea() {
                     ex.
                   </p>
                   <div className="view-btn">
-                    <Link onClick={scrollTop} to={`${process.env.PUBLIC_URL}/blog-details`}>
-                      View details
+                    <Link href="/blog-details" passHref>
+                      <a onClick={scrollTop}>View details</a>
                     </Link>
                   </div>
                 </div>
@@ -62,23 +67,25 @@ function LatesNewsArea() {
             <div className="col-md-6 col-lg-4 col-xl-4">
               <div className="signle-news">
                 <div className="tag">
-                  <Link onClick={scrollTop} to={"/"}>Software</Link>
+                  <Link href="/" passHref>
+                    <a onClick={scrollTop}>Software</a>
+                  </Link>
                 </div>
-                <div className="post-img">
-                  <Link to={`${process.env.PUBLIC_URL}/blog_details`}>
-                    <img
-                      src={process.env.PUBLIC_URL + "/images/post/post-2.jpg"}
-                      alt="images"
-                    />
+                <div className="post-image">
+                  <Link href="/blog-details" passHref>
+                    <a onClick={scrollTop}>
+                      <img
+                        src="/images/post/post-2.jpg"
+                        alt="images"
+                      />
+                    </a>
                   </Link>
                 </div>
                 <div className="news-content">
                   <div className="author">
                     <div className="author-pic">
                       <img
-                        src={
-                          process.env.PUBLIC_URL + "images/author/author-2.jpg"
-                        }
+                        src="/images/author/author-2.jpg"
                         alt="images"
                       />
                     </div>
@@ -88,8 +95,10 @@ function LatesNewsArea() {
                     </div>
                   </div>
                   <h3>
-                    <Link onClick={scrollTop} to={`${process.env.PUBLIC_URL}/blog-details`}>
-                      Mekusa a porttitor phari sod tellus algo quis ksro.
+                    <Link href="/blog-details" passHref>
+                      <a onClick={scrollTop}>
+                        Mekusa a porttitor phari sod tellus algo quis ksro.
+                      </a>
                     </Link>
                   </h3>
                   <p>
@@ -98,8 +107,8 @@ function LatesNewsArea() {
                     ex.
                   </p>
                   <div className="view-btn">
-                    <Link onClick={scrollTop} to={`${process.env.PUBLIC_URL}/blog-details`}>
-                      View details
+                    <Link href="/blog-details" passHref>
+                      <a onClick={scrollTop}>View details</a>
                     </Link>
                   </div>
                 </div>
@@ -110,8 +119,8 @@ function LatesNewsArea() {
                 <span>Blog</span>
                 <h2>Latest news And Article modern design.</h2>
                 <div className="cmn-btn">
-                  <Link onClick={scrollTop} to={`${process.env.PUBLIC_URL}/blog`}>
-                    View All Blog
+                  <Link href="/blog" passHref>
+                    <a onClick={scrollTop}>View All Blog</a>
                   </Link>
                 </div>
               </div>
