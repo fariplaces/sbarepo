@@ -9,150 +9,136 @@ function NewsLatterArea(props) {
       behavior: "smooth",
     });
   };
-  return (
-    <>
-      <section className="latest-news sec-mar">
-        <div className="container">
-          <div className="row gx-4">
-            <div className="col-md-6 col-lg-4 col-xl-4">
-              <div className="signle-news">
-                <div className="tag">
-                  <Link onClick={scrollTop} href={"#"}>
-                    Web Design
-                  </Link>
-                </div>
-                <div className="post-img">
-                  <Link
-                    onClick={scrollTop}
-                    href={`/blog-details`}
-                  >
-                    <img
-                      src={ "/images/post/post-1.jpg"}
-                      alt="img"
-                    />
-                  </Link>
-                </div>
-                <div className="news-content">
-                  <div className="author">
-                    <div className="author-pic">
-                      <img
-                        src={
-                           "/images/atoma.jpg"
-                        }
-                        alt="images"
-                      />
-                    </div>
-                    <div className="author-info">
-                      <h5><span>Posted by, ATOMASZ</span></h5>
-                      <span>08 March, 2023</span>
-                     
-                    </div>
-                  </div>
-                  <h3>
-                    <Link
-                      onClick={scrollTop}
-                      href={`/blog-details`}
-                    >
-                    <p>
-                    Positive: Professionalism, Punctually, Quality, Responsiveness, Value Hassan and it team have been recommended to my by the company who provided my gate. I can say I could not
-                    recommend them enough for their swift and professional services.And very reason-able prices!! If i need anything in the future
-                    </p>
-                        
-                    </Link>
-                  </h3>
-                  <p>
-                    {/* Aptent taciti sociosqu ad litora torquent pi himenaeos.
-                    Praesent nec neque at dolor ti venenatis consectetur eu quis
-                    ex. */}
-                  </p>
-                  <div className="view-btn">
-                    <Link
-                      onClick={scrollTop}
-                      href={`/blog-details`}
-                    >
-                      View details
-                    </Link>
-                  </div>
-                </div>
+  return <>
+    <section className="latest-news sec-mar">
+      <div className="container">
+        <div className="row gx-4">
+          <div className="col-md-6 col-lg-4 col-xl-4">
+            <div className="signle-news">
+              <div className="tag">
+                <Link onClick={scrollTop} href={"#"}>
+                  Web Design
+                </Link>
               </div>
-            </div>
-            <div className="col-md-6 col-lg-4 col-xl-4">
-              <div className="signle-news">
-                <div className="tag">
-                  <Link onClick={scrollTop} href={"/"}>
-                    Software
-                  </Link>
-                </div>
-                <div className="post-img">
-                  <Link
-                    onClick={scrollTop}
-                    href={`/blog-details`}
-                  >
+              <div className="post-img">
+                <Link onClick={scrollTop} href={`/blog-details`} legacyBehavior>
+                  <img
+                    src={ "/images/post/post-1.jpg"}
+                    alt="img"
+                  />
+                </Link>
+              </div>
+              <div className="news-content">
+                <div className="author">
+                  <div className="author-pic">
                     <img
-                      src={ "/images/post/post-2.jpg"}
+                      src={
+                         "/images/atoma.jpg"
+                      }
                       alt="images"
                     />
+                  </div>
+                  <div className="author-info">
+                    <h5><span>Posted by, ATOMASZ</span></h5>
+                    <span>08 March, 2023</span>
+                   
+                  </div>
+                </div>
+                <h3>
+                  <Link onClick={scrollTop} href={`/blog-details`} legacyBehavior>
+                  <p>
+                  Positive: Professionalism, Punctually, Quality, Responsiveness, Value Hassan and it team have been recommended to my by the company who provided my gate. I can say I could not
+                  recommend them enough for their swift and professional services.And very reason-able prices!! If i need anything in the future
+                  </p>
+                      
                   </Link>
-                </div>
-                <div className="news-content">
-                  <div className="author">
-                    <div className="author-pic">
-                      <img
-                        src={
-                           "/images/morgan.jpg"
-                        }
-                        alt="images"
-                      />
-                    </div>
-                    <div className="author-info">
-                      <h5>Posted by,Mike Morgan</h5>
-                      <span>05 January, 2022</span>
-                    </div>
-                  </div>
-                  <h3>
-                    <Link
-                      onClick={scrollTop}
-                      href={`/blog-details`}
-                    >
-               <p>It is the first time I have used Hassan and his team and mu expectations have been exceeded. The professional-ism and quality of the work has been fantastic and also the customer
-               care has been great. I would definitely use the team again in the future, for example if i update my alarams system and I highly recommend the team.</p> 
-                    </Link>
-                  </h3>
-                  {/* <p>
-                    Aptent taciti sociosqu ad litora torquent pi himenaeos.
-                    Praesent nec neque at dolor ti venenatis consectetur eu quis
-                    ex.
-                  </p> */}
-                  <div className="view-btn">
-                    <Link
-                      onClick={scrollTop}
-                      href={`/blog-details`}
-                    >
-                      View details
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-lg-4 col-xl-4">
-              <div className={`title ${props.black}`}>
-                <span>TESTIMONIAL</span>
-                <h2>LOVES FROM SPECIAL CLIENTS</h2>
-                <div className="cmn-btn">
+                </h3>
+                <p>
+                  {/* Aptent taciti sociosqu ad litora torquent pi himenaeos.
+                  Praesent nec neque at dolor ti venenatis consectetur eu quis
+                  ex. */}
+                </p>
+                <div className="view-btn">
                   <Link
                     onClick={scrollTop}
-                    href={`/blog`}
+                    href={`/blog-details`}
                   >
-                    View All Clients
+                    View details
                   </Link>
                 </div>
               </div>
             </div>
           </div>
+          <div className="col-md-6 col-lg-4 col-xl-4">
+            <div className="signle-news">
+              <div className="tag">
+                <Link onClick={scrollTop} href={"/"}>
+                  Software
+                </Link>
+              </div>
+              <div className="post-img">
+                <Link onClick={scrollTop} href={`/blog-details`} legacyBehavior>
+                  <img
+                    src={ "/images/morgan.jpg"}
+                    alt="images"
+                  />
+                </Link>
+              </div>
+              <div className="news-content">
+                <div className="author">
+                  <div className="author-pic">
+                    <img
+                      src={
+                         "/images/morgan.jpg"
+                      }
+                      alt="images"
+                    />
+                  </div>
+                  <div className="author-info">
+                    <h5>Posted by,Mike Morgan</h5>
+                    <span>05 January, 2022</span>
+                  </div>
+                </div>
+                <h3>
+                  <Link onClick={scrollTop} href={`/blog-details`} legacyBehavior>
+             <p>It is the first time I have used Hassan and his team and mu expectations have been exceeded. The professional-ism and quality of the work has been fantastic and also the customer
+             care has been great. I would definitely use the team again in the future, for example if i update my alarams system and I highly recommend the team.</p> 
+                  </Link>
+                </h3>
+                {/* <p>
+                  Aptent taciti sociosqu ad litora torquent pi himenaeos.
+                  Praesent nec neque at dolor ti venenatis consectetur eu quis
+                  ex.
+                </p> */}
+                <div className="view-btn">
+                  <Link
+                    onClick={scrollTop}
+                    href={`/blog-details`}
+                  >
+                    View details
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 col-lg-4 col-xl-4">
+            <div className={`title ${props.black}`}>
+              <span>TESTIMONIAL</span>
+              <h2>LOVES FROM SPECIAL CLIENTS</h2>
+              <div className="cmn-btn">
+                <Link
+                  onClick={scrollTop}
+                  href={`/blog`}
+                >
+                  View All Clients
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
-      </section>
-    </>
-  );
+      </div>
+    </section>
+  </>;
 }
 
 export default NewsLatterArea;
