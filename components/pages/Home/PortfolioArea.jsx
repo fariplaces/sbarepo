@@ -1,6 +1,6 @@
 import React from "react";
 // import Link from "next/link";
-// import { SRLWrapper } from "simple-react-lightbox";
+import { SRLWrapper } from "simple-react-lightbox";
 // import { Swiper, SwiperSlide } from "swiper/react";
 // import SwiperCore, { Autoplay, Navigation } from "swiper";
 // import "swiper/swiper.min.css";

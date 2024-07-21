@@ -17,17 +17,17 @@ function NewsLatterArea(props) {
             <div className="signle-news">
               <div className="tag">
                 <Link onClick={scrollTop} href="#">
-                  <a>Web Design</a>
+                  Web Design
                 </Link>
               </div>
               <div className="post-img">
                 <Link onClick={scrollTop} href={`/blog-details`} passHref>
-                  <a>
-                    <img
-                      src={"/images/post/post-1.jpg"}
-                      alt="img"
-                    />
-                  </a>
+
+                  <img
+                    src={"/images/post/post-1.jpg"}
+                    alt="img"
+                  />
+
                 </Link>
               </div>
               <div className="news-content">
@@ -45,16 +45,16 @@ function NewsLatterArea(props) {
                 </div>
                 <h3>
                   <Link onClick={scrollTop} href={`/blog-details`} passHref>
-                    <a>
-                      <p>
-                        Positive: Professionalism, Punctually, Quality, Responsiveness, Value Hassan and it team have been recommended to my by the company who provided my gate. I can say I could not recommend them enough for their swift and professional services.And very reason-able prices!! If i need anything in the future
-                      </p>
-                    </a>
+
+                    <p>
+                      Positive: Professionalism, Punctually, Quality, Responsiveness, Value Hassan and it team have been recommended to my by the company who provided my gate. I can say I could not recommend them enough for their swift and professional services.And very reason-able prices!! If i need anything in the future
+                    </p>
+
                   </Link>
                 </h3>
                 <div className="view-btn">
                   <Link onClick={scrollTop} href={`/blog-details`} passHref>
-                    <a>View details</a>
+                    View details
                   </Link>
                 </div>
               </div>
@@ -64,17 +64,17 @@ function NewsLatterArea(props) {
             <div className="signle-news">
               <div className="tag">
                 <Link onClick={scrollTop} href={"/"} passHref>
-                  <a>Software</a>
+                  Software
                 </Link>
               </div>
               <div className="post-img">
                 <Link onClick={scrollTop} href={`/blog-details`} passHref>
-                  <a>
-                    <img
-                      src={"/images/morgan.jpg"}
-                      alt="images"
-                    />
-                  </a>
+
+                  <img
+                    src={"/images/morgan.jpg"}
+                    alt="images"
+                  />
+
                 </Link>
               </div>
               <div className="news-content">
@@ -92,16 +92,16 @@ function NewsLatterArea(props) {
                 </div>
                 <h3>
                   <Link onClick={scrollTop} href={`/blog-details`} passHref>
-                    <a>
-                      <p>
-                        It is the first time I have used Hassan and his team and mu expectations have been exceeded. The professionalism and quality of the work has been fantastic and also the customer care has been great. I would definitely use the team again in the future, for example if i update my alarams system and I highly recommend the team.
-                      </p>
-                    </a>
+
+                    <p>
+                      It is the first time I have used Hassan and his team and mu expectations have been exceeded. The professionalism and quality of the work has been fantastic and also the customer care has been great. I would definitely use the team again in the future, for example if i update my alarams system and I highly recommend the team.
+                    </p>
+
                   </Link>
                 </h3>
                 <div className="view-btn">
                   <Link onClick={scrollTop} href={`/blog-details`} passHref>
-                    <a>View details</a>
+                    View details
                   </Link>
                 </div>
               </div>
@@ -113,7 +113,7 @@ function NewsLatterArea(props) {
               <h2>LOVES FROM SPECIAL CLIENTS</h2>
               <div className="cmn-btn">
                 <Link onClick={scrollTop} href={`/blog`} passHref>
-                  <a>View All Clients</a>
+                  View All Clients
                 </Link>
               </div>
             </div>

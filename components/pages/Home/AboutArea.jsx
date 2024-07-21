@@ -53,8 +53,8 @@ function AboutArea() {
                 </div>
               </div>
               <div className="cmn-btn">
-                <Link href="/about" passHref>
-                  <a onClick={scrollTop}>About more</a>
+                <Link href="/about" passHref onClick={scrollTop}>
+                  About more
                 </Link>
               </div>
             </div>

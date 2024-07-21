@@ -17,17 +17,17 @@ function NewsLatterArea(props) {
             <div className="signle-news">
               <div className="tag">
                 <Link onClick={scrollTop} href="#">
-                  <a>Web Design</a>
+                  Web Design
                 </Link>
               </div>
               <div className="post-img">
                 <Link onClick={scrollTop} href={`/blog-details`} passHref>
-                  <a>
-                    <img
-                      src={"/images/post/post-1.jpg"}
-                      alt="img"
-                    />
-                  </a>
+
+                  <img
+                    src={"/images/post/post-1.jpg"}
+                    alt="img"
+                  />
+
                 </Link>
               </div>
               <div className="news-content">
@@ -45,14 +45,14 @@ function NewsLatterArea(props) {
                 </div>
                 <h3>
                   <Link onClick={scrollTop} href={`/blog-details`} passHref>
-                    <a>
+                    
                       Positive: Professionalism, Punctually, Quality, Responsiveness, Value Hassan and it team have been recommended to my by the company who provided my gate. I can say I could not recommend them enough for their swift and professional services.And very reason-able prices!! If i need anything in the future
-                    </a>
+                    
                   </Link>
                 </h3>
                 <div className="view-btn">
                   <Link onClick={scrollTop} href={`/blog-details`} passHref>
-                    <a>View details</a>
+                    View details
                   </Link>
                 </div>
               </div>
@@ -62,17 +62,17 @@ function NewsLatterArea(props) {
             <div className="signle-news">
               <div className="tag">
                 <Link onClick={scrollTop} href={"/"} passHref>
-                  <a>Software</a>
+                  Software
                 </Link>
               </div>
               <div className="post-img">
                 <Link onClick={scrollTop} href={`/blog-details`} passHref>
-                  <a>
-                    <img
-                      src={"/images/morgan.jpg"}
-                      alt="images"
-                    />
-                  </a>
+
+                  <img
+                    src={"/images/morgan.jpg"}
+                    alt="images"
+                  />
+
                 </Link>
               </div>
               <div className="news-content">
@@ -90,14 +90,14 @@ function NewsLatterArea(props) {
                 </div>
                 <h3>
                   <Link onClick={scrollTop} href={`/blog-details`} passHref>
-                    <a>
+                    
                       It is the first time I have used Hassan and his team and my expectations have been exceeded. The professionalism and quality of the work has been fantastic and also the customer care has been great. I would definitely use the team again in the future, for example if I update my alarms system and I highly recommend the team.
-                    </a>
+                    
                   </Link>
                 </h3>
                 <div className="view-btn">
                   <Link onClick={scrollTop} href={`/blog-details`} passHref>
-                    <a>View details</a>
+                    View details
                   </Link>
                 </div>
               </div>
@@ -112,7 +112,7 @@ function NewsLatterArea(props) {
                   onClick={scrollTop}
                   href={`/blog`}
                 >
-                  <a>View All Clients</a>
+                  View All Clients
                 </Link>
               </div>
             </div>

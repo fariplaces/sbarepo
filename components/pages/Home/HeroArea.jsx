@@ -63,11 +63,11 @@ function HeroArea() {
                         <p>
                           Welcome to Watch Security Limited, the experts in electronic security systems and electric gates installation across the UK!
                         </p>
-                        <Link href="/about" passHref>
-                          <a className="about-btn" onClick={scrollTop}>About us</a>
+                        <Link href="/about" passHref className="about-btn" onClick={scrollTop}>
+                          About us
                         </Link>
-                        <Link href="/project-details" passHref>
-                          <a className="work-btn" onClick={scrollTop}>View Services</a>
+                        <Link href="/project-details" passHref className="work-btn" onClick={scrollTop}>
+                          View Services
                         </Link>
                         <div className="slider-num">
                           <span>01</span>
@@ -96,11 +96,11 @@ function HeroArea() {
                         <p>
                           Welcome to Watch Security Limited, the experts in electronic security systems and electric gates installation across the UK!
                         </p>
-                        <Link href="/about" passHref>
-                          <a className="about-btn" onClick={scrollTop}>About us</a>
+                        <Link href="/about" passHref className="about-btn" onClick={scrollTop}>
+                          About us
                         </Link>
-                        <Link href="/project-details" passHref>
-                          <a className="work-btn" onClick={scrollTop}>View Services</a>
+                        <Link href="/project-details" passHref className="work-btn" onClick={scrollTop}>
+                          View Services
                         </Link>
                         <div className="slider-num">
                           <span>02</span>
@@ -129,11 +129,11 @@ function HeroArea() {
                         <p>
                           Welcome to Watch Security Limited, the experts in electronic security systems and electric gates installation across the UK!
                         </p>
-                        <Link href="/about" passHref>
-                          <a className="about-btn" onClick={scrollTop}>About us</a>
+                        <Link href="/about" passHref className="about-btn" onClick={scrollTop}>
+                          About us
                         </Link>
-                        <Link href="/project-details" passHref>
-                          <a className="work-btn" onClick={scrollTop}>View Services</a>
+                        <Link href="/project-details" passHref className="work-btn" onClick={scrollTop}>
+                          View Services
                         </Link>
                         <div className="slider-num">
                           <span>03</span>

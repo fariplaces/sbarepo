@@ -18,7 +18,7 @@ function Breadcrumb() {
               <h1>About us</h1>
               <span>
               <Link href="/" onClick={scrollTop}>
-  <a>Home</a>
+  Home
 </Link>
 
                 <i>

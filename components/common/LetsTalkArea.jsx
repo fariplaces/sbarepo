@@ -27,7 +27,7 @@ function LetsTalkArea() {
             <div className="getin-touch">
               <div className="cmn-btn">
                 <Link onClick={scrollTop} href="/contact">
-                  <a onClick={(e) => e.preventDefault()}>Get In Touch</a>
+                  Get In Touch
                 </Link>
               </div>
             </div>
