@@ -15,7 +15,7 @@ function AboutArea() {
   const Singlepercentage = 85;
   const singleXmPercentage = 68;
 
-  return <>
+  return (
     <section className="about-area sec-mar">
       <div className="container">
         <div className="row">
@@ -26,11 +26,11 @@ function AboutArea() {
                 <h2 className="mb-15">At Watch Security, we understand that every property and business is unique.</h2>
               </div>
               <p>
-              At Watch Security, we understand that every property and business is unique. That’s why we take a personalised approach to security, working closely with our clients to assess their requirements and design customised solutions that address their specific concerns. Whether it’s installing state-of-the-art CCTV systems, access control solutions, or intruder alarms, we have the expertise to deliver reliable and effective security measures.
+                At Watch Security, we understand that every property and business is unique. That’s why we take a personalised approach to security, working closely with our clients to assess their requirements and design customised solutions that address their specific concerns. Whether it’s installing state-of-the-art CCTV systems, access control solutions, or intruder alarms, we have the expertise to deliver reliable and effective security measures.
 
-We pride ourselves on our commitment to customer satisfaction. Our team of engineers is not only highly skilled but also dedicated to providing exceptional service. We believe in building long-term relationships with our clients, offering ongoing support, maintenance, and monitoring services to ensure that their security systems operate optimally at all times.
+                We pride ourselves on our commitment to customer satisfaction. Our team of engineers is not only highly skilled but also dedicated to providing exceptional service. We believe in building long-term relationships with our clients, offering ongoing support, maintenance, and monitoring services to ensure that their security systems operate optimally at all times.
 
-At Watch Security, we stay at the forefront of technological advancements in the security industry. By partnering with leading manufacturers, we offer cutting-edge solutions that integrate seamlessly into our clients’ properties, providing them with advanced security features and remote monitoring capabilities.
+                At Watch Security, we stay at the forefront of technological advancements in the security industry. By partnering with leading manufacturers, we offer cutting-edge solutions that integrate seamlessly into our clients’ properties, providing them with advanced security features and remote monitoring capabilities.
               </p>
               <div className="our-mission">
                 <div className="msn-icon">
@@ -53,9 +53,8 @@ At Watch Security, we stay at the forefront of technological advancements in the
                 </div>
               </div>
               <div className="cmn-btn">
-                <Link href="/about" legacyBehavior>
-                  {/* <a onClick={scrollTop}>About more</a> */}
-                  About more
+                <Link href="/about" passHref>
+                  <a onClick={scrollTop}>About more</a>
                 </Link>
               </div>
             </div>
@@ -145,7 +144,7 @@ At Watch Security, we stay at the forefront of technological advancements in the
         </div>
       </div>
     </section>
-  </>;
+  );
 }
 
 export default AboutArea;

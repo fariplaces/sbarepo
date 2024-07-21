@@ -16,8 +16,8 @@ function NewsLatterArea(props) {
           <div className="col-md-6 col-lg-4 col-xl-4">
             <div className="signle-news">
               <div className="tag">
-                <Link onClick={scrollTop} href={"#"}>
-                  Web Design
+                <Link onClick={scrollTop} href="#">
+                  <a>Web Design</a>
                 </Link>
               </div>
               <div className="post-img">

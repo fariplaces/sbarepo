@@ -21,13 +21,12 @@ function Breadcrumb() {
                   Home
                 </Link>
                 <i>
-                  {/* <img
+                  <image
                     src={
-                      process.env.PUBLIC_URL +
                       "/images/about.png"
                     }
                     alt="images"
-                  /> */}
+                  />
                 </i>
                 About us
               </span>
