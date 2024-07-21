@@ -70,10 +70,7 @@ function NewsLatterArea(props) {
               <div className="post-img">
                 <Link onClick={scrollTop} href={`/blog-details`} passHref>
 
-                  <img
-                    src={"/images/morgan.jpg"}
-                    alt="images"
-                  />
+                <img src="/images/post/post-1.jpg" alt="images" />
 
                 </Link>
               </div>

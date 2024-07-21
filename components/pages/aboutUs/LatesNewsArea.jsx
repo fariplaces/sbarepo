@@ -23,14 +23,14 @@ function LatesNewsArea() {
               <div className="post-image">
                 <Link href="/blog-details" passHref onClick={scrollTop} legacyBehavior>
                   <a>
-                    <imag src="/images/post/post-1.jpg" alt="images" />
+                    <img src="/images/post/post-1.jpg" alt="images" />
                   </a>
                 </Link>
               </div>
               <div className="news-content">
                 <div className="author">
                   <div className="author-pic">
-                    <image src="/images/author/author-1.jpg" alt="images" />
+                    <img src="/images/morgan.jpg" alt="images" />
                   </div>
                   <div className="author-info">
                     <h5>Posted by, Mike Morgan</h5>
@@ -39,9 +39,9 @@ function LatesNewsArea() {
                 </div>
                 <h3>
                   <Link href="/blog-details" passHref onClick={scrollTop}>
-                    
+                    <p>
                       It is the first time I have used Hassan and his team and mu expectations have been exceeded. The professional-ism and quality of the work has been fantastic and also the customer
-                      care has been great. I would definitely use the team again in the future, for example if i update my alarams system and I highly recommend the team.
+                      care has been great. I would definitely use the team again in the future, for example if i update my alarams system and I highly recommend the team.</p>
                     
                   </Link>
                 </h3>
@@ -63,32 +63,37 @@ function LatesNewsArea() {
               <div className="post-image">
                 <Link href="/blog-details" passHref onClick={scrollTop} legacyBehavior>
                   <a>
-                    <image src="/images/post/post-2.jpg" alt="images" />
+                    <img src="/images/post/post-2.jpg" alt="images" />
                   </a>
                 </Link>
               </div>
               <div className="news-content">
                 <div className="author">
                   <div className="author-pic">
-                    <image src="/images/author/author-2.jpg" alt="images" />
+                  <img
+                      src={"/images/atoma.jpg"}
+                      alt="images"
+                    />
                   </div>
                   <div className="author-info">
-                    <h5>Posted by, Alen Jodge</h5>
+                    <h5>Posted by, ATOMASZ</h5>
                     <span>05 January, 2021</span>
                   </div>
                 </div>
                 <h3>
                   <Link href="/blog-details" passHref onClick={scrollTop}>
                     
-                      Mekusa a porttitor phari sod tellus algo quis ksro.
+                  <p>
+                      Positive: Professionalism, Punctually, Quality, Responsiveness, Value Hassan and it team have been recommended to my by the company who provided my gate. I can say I could not recommend them enough for their swift and professional services.And very reason-able prices!! If i need anything in the future
+                    </p>
                     
                   </Link>
                 </h3>
-                <p>
+                {/* <p>
                   Aptent taciti sociosqu ad litora torquent pi himenaeos.
                   Praesent nec neque at dolor ti venenatis consectetur eu quis
                   ex.
-                </p>
+                </p> */}
                 <div className="view-btn">
                   <Link href="/blog-details" passHref onClick={scrollTop}>
                     View details
@@ -99,11 +104,11 @@ function LatesNewsArea() {
           </div>
           <div className="col-md-6 col-lg-4 col-xl-4">
             <div className="title black">
-              <span>Blog</span>
-              <h2>Latest news And Article modern design.</h2>
+              <span>Clients</span>
+              <h2>LOVES FROM SPECIAL CLIENTS</h2>
               <div className="cmn-btn">
                 <Link href="/blog" passHref onClick={scrollTop}>
-                  View All Blog
+                  View All Clients
                 </Link>
               </div>
             </div>
@@ -111,7 +116,7 @@ function LatesNewsArea() {
         </div>
       </div>
     </section>
-  </>;
+  </>
 }
 
 export default LatesNewsArea;

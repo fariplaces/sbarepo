@@ -15,14 +15,14 @@ function Breadcrumb() {
         <div className="row">
           <div className="col-12">
             <div className="breadcrumb-wrapper">
-              <h1>About us</h1>
+              <h1>Contact Us</h1>
               <span>
               <Link href="/" onClick={scrollTop}>
   Home
 </Link>
 
                 <i>
-                  <image
+                  <img
                     src={
                       "/images/about.png"
                     }

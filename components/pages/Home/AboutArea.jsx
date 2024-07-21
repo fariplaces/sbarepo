@@ -44,8 +44,7 @@ function AboutArea() {
                 <div className="msn-content">
                   <h5>Our Mission</h5>
                   <p>
-                    Integer purus odio, placerat nec rhoni olor Class online
-                    and video.
+                  At Watch Security, we understand that every property and business is unique.
                   </p>
                 </div>
                 <div className="cto">
@@ -143,6 +142,7 @@ function AboutArea() {
           </div>
         </div>
       </div>
+      
     </section>
   );
 }
