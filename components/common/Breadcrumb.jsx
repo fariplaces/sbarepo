@@ -17,9 +17,10 @@ function Breadcrumb() {
             <div className="breadcrumb-wrapper">
               <h1>About us</h1>
               <span>
-                <Link href="/" onClick={scrollTop}>
-                  Home
-                </Link>
+              <Link href="/" onClick={scrollTop}>
+  <a>Home</a>
+</Link>
+
                 <i>
                   <image
                     src={

@@ -1,177 +1,126 @@
-'use client';
 import React from "react";
-
 import Link from "next/link";
-function ServiceArea() {
+
+function NewsLatterArea(props) {
   const scrollTop = () => {
     window.scrollTo({
       top: 0,
       behavior: "smooth",
     });
   };
-  return <>
-    <section className="service-area sec-pad">
+
+  return (
+    <section className="latest-news sec-mar">
       <div className="container">
-        <div className="row">
-          <div className="col-md-12 col-lg-4 col-xl-4">
-            <div className="title">
-              <span>what we do</span>
-              <h2>SMART SECURITY SERVICE FOR YOUR LIVE SAFETY</h2>
+        <div className="row gx-4">
+          <div className="col-md-6 col-lg-4 col-xl-4">
+            <div className="signle-news">
+              <div className="tag">
+                <Link onClick={scrollTop} href="#">
+                  <a>Web Design</a>
+                </Link>
+              </div>
+              <div className="post-img">
+                <Link onClick={scrollTop} href={`/blog-details`} passHref>
+                  <a>
+                    <img
+                      src={"/images/post/post-1.jpg"}
+                      alt="img"
+                    />
+                  </a>
+                </Link>
+              </div>
+              <div className="news-content">
+                <div className="author">
+                  <div className="author-pic">
+                    <img
+                      src={"/images/atoma.jpg"}
+                      alt="images"
+                    />
+                  </div>
+                  <div className="author-info">
+                    <h5><span>Posted by, ATOMASZ</span></h5>
+                    <span>08 March, 2023</span>
+                  </div>
+                </div>
+                <h3>
+                  <Link onClick={scrollTop} href={`/blog-details`} passHref>
+                    <a>
+                      Positive: Professionalism, Punctually, Quality, Responsiveness, Value Hassan and it team have been recommended to my by the company who provided my gate. I can say I could not recommend them enough for their swift and professional services.And very reason-able prices!! If i need anything in the future
+                    </a>
+                  </Link>
+                </h3>
+                <div className="view-btn">
+                  <Link onClick={scrollTop} href={`/blog-details`} passHref>
+                    <a>View details</a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 col-lg-4 col-xl-4">
+            <div className="signle-news">
+              <div className="tag">
+                <Link onClick={scrollTop} href={"/"} passHref>
+                  <a>Software</a>
+                </Link>
+              </div>
+              <div className="post-img">
+                <Link onClick={scrollTop} href={`/blog-details`} passHref>
+                  <a>
+                    <img
+                      src={"/images/morgan.jpg"}
+                      alt="images"
+                    />
+                  </a>
+                </Link>
+              </div>
+              <div className="news-content">
+                <div className="author">
+                  <div className="author-pic">
+                    <img
+                      src={"/images/morgan.jpg"}
+                      alt="images"
+                    />
+                  </div>
+                  <div className="author-info">
+                    <h5>Posted by, Mike Morgan</h5>
+                    <span>05 January, 2022</span>
+                  </div>
+                </div>
+                <h3>
+                  <Link onClick={scrollTop} href={`/blog-details`} passHref>
+                    <a>
+                      It is the first time I have used Hassan and his team and my expectations have been exceeded. The professionalism and quality of the work has been fantastic and also the customer care has been great. I would definitely use the team again in the future, for example if I update my alarms system and I highly recommend the team.
+                    </a>
+                  </Link>
+                </h3>
+                <div className="view-btn">
+                  <Link onClick={scrollTop} href={`/blog-details`} passHref>
+                    <a>View details</a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 col-lg-4 col-xl-4">
+            <div className={`title ${props.black}`}>
+              <span>TESTIMONIAL</span>
+              <h2>LOVES FROM SPECIAL CLIENTS</h2>
+              <div className="cmn-btn">
                 <Link
                   onClick={scrollTop}
-                  href={`/service`}
+                  href={`/blog`}
                 >
-                  Check all Services
+                  <a>View All Clients</a>
                 </Link>
               </div>
             </div>
           </div>
-          <div className="col-md-12 col-lg-8 col-xl-8">
-            <div className="row g-4">
-              <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                <div className="single-service">
-                  <span className="count">01</span>
-                  <div className="service-icon">
-                    <i>
-                      <img
-                        src={
-                          
-                          "/images/icons/service-icon-1.png"
-                        }
-                        alt="images"
-                      />
-                    </i>
-                  </div>
-                  <div className="service-content">
-                    <h4>Smart CCTV Systems</h4>
-                    <p>
-                    Robust CCTV solutions
-                    Protect your business & secure it with much confidence.
-                    </p>
-                    <Link onClick={scrollTop} href={`/service-details`} legacyBehavior>
-                      read more
-                      <i>
-                        <img
-                          src={
-                            
-                            "/images/icons/arrow-circle.png"
-                          }
-                          alt="images"
-                        />
-                      </i>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                <div className="single-service">
-                  <span className="count">02</span>
-                  <div className="service-icon">
-                    <i>
-                      <img
-                        src={
-                          
-                          "/images/icons/service-icon-2.png"
-                        }
-                        alt="images"
-                      />
-                    </i>
-                  </div>
-                  <div className="service-content">
-                    <h4>Access Control</h4>
-                    <p>
-                    Biometric fingerprint access control Experience seamless and secure entry.
-                    </p>
-                    <Link onClick={scrollTop} href={`/service-details`} legacyBehavior>
-                      read more
-                      <i>
-                        <img
-                          src={
-                            
-                            "/images/icons/arrow-circle.png"
-                          }
-                          alt="images"
-                        />
-                      </i>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                <div className="single-service">
-                  <span className="count">03</span>
-                  <div className="service-icon">
-                    <i>
-                      <img
-                        src={
-                          
-                          "/images/icons/service-icon-3.png"
-                        }
-                        alt="images"
-                      />
-                    </i>
-                  </div>
-                  <div className="service-content">
-                    <h4>Smart Intruder Alarms</h4>
-                    <p>
-                    Intruder Alarms - Protect Your Business with Advanced Alarm Systems.
-                    </p>
-                    <Link onClick={scrollTop} href={`/service-details`} legacyBehavior>
-                      read more
-                      <i>
-                        <img
-                          src={
-                            
-                            "/images/icons/arrow-circle.png"
-                          }
-                          alt="images"
-                        />
-                      </i>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-              <div className="col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                <div className="single-service">
-                  <span className="count">04</span>
-                  <div className="service-icon">
-                    <i>
-                      <img
-                        src={
-                          
-                          "/images/icons/service-icon-4.png"
-                        }
-                        alt="images"
-                      />
-                    </i>
-                  </div>
-                  <div className="service-content">
-                    <h4>Electric Gates</h4>
-                    <p>
-                    Secure your entrance in style - Electric Gates for effortless elegance and enhanced security.
-                    </p>
-                    <Link onClick={scrollTop} href={`/service-details`} legacyBehavior>
-                      read more
-                      <i>
-                        <img
-                          src={
-                            
-                            "/images/icons/arrow-circle.png"
-                          }
-                          alt="images"
-                        />
-                      </i>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-    
-     
+      </div>
     </section>
-  </>;
-};
+  );
+}
 
-export default ServiceArea;
+export default NewsLatterArea;
