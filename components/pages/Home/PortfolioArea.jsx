@@ -1,16 +1,10 @@
 import React from "react";
-// import Link from "next/link";
+import Link from "next/link";  // Import Link from Next.js
 import { SRLWrapper } from "simple-react-lightbox";
-// import { Swiper, SwiperSlide } from "swiper/react";
-// import SwiperCore, { Autoplay, Navigation } from "swiper";
-// import "swiper/swiper.min.css";
-// import "swiper/components/navigation/navigation.min.css";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Autoplay, Navigation } from 'swiper';
-
-// Import CSS files from swiper
-import 'swiper/css'; // This imports all swiper styles
-import 'swiper/css/navigation'; // Specific styles for navigation module
+import 'swiper/css'; // Import swiper core styles
+import 'swiper/css/navigation'; // Import swiper navigation styles
 
 SwiperCore.use([Navigation, Autoplay]);
 
@@ -56,23 +50,274 @@ function PortfolioArea(props) {
           </div>
         </div>
         <div className="swiper portfolio-slider">
-          <Swiper
-            {...portfolioSlider}
-            pagination={{
-              type: "bullets",
-              clickable: true,
-            }}
-            className="swiper-wrapper"
-          >
-            <SwiperSlide className="swiper-slide">
-              {/* Your portfolio slide content */}
-            </SwiperSlide>
-            {/* Add more SwiperSlide components for additional slides */}
-          </Swiper>
-          <div className="swiper-pagination" />
-          <div className="swiper-button-next" />
-          <div className="swiper-button-prev" />
-        </div>
+            <Swiper
+              {...portfolioSlider}
+              pagination={{
+                type: "bullets",
+                clickable: true,
+                // el:".swiper-pagination"
+              }}
+              className="swiper-wrapper"
+            >
+              <SwiperSlide className="swiper-slide">
+                <div className="single-portfolio">
+                  <div className="portfolio-data">
+                    <a href="/home">
+                      <img
+                        src={
+                          
+                          "/images/blog2.png"
+                        }
+                        alt="images"
+                      />
+                    </a>
+                  </div>
+                  <div className="portfolio-inner">
+                    <span>Mastering Access Control</span>
+                    <h4>Access control is a fundamental aspect of security in today’s world. It plays a crucial role in safeguarding our physical Read More</h4>
+
+                    <div className="portfolio-hover">
+                      <Link
+                        onClick={scrollTop}
+                        href={`/project-details`}
+                        className="case-btn"
+                      >
+                        Read More »
+                      </Link>
+                      <a
+                        data-lightbox="image1"
+                        href={
+                          
+                          "/images/"
+                        }
+                      >
+                        <i
+                          alt="images"
+                          src={
+                            
+                            "/images/blog2.png"
+                          }
+                          className="fas fa-search"
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide">
+                <div className="single-portfolio">
+                  <div className="portfolio-data">
+                    <a href="#s">
+                      <img
+                        src={
+                          
+                          "/images/inturder.png"
+                        }
+                        alt="images"
+                      />
+                    </a>
+                  </div>
+                  <div className="portfolio-inner">
+                    <span>The Power of Intruder Alarm Systems</span>
+                    <h4>Security is a fundamental human need. Whether you’re a homeowner or a business owner, the peace of mind that comes</h4>
+                    <div className="portfolio-hover">
+                      <Link
+                        onClick={scrollTop}
+                        href={`/project-details`}
+                        className="case-btn"
+                      >
+                        Read More »
+                      </Link>
+                      <a
+                        data-lightbox="image1"
+                        href={
+                          
+                          "/images/portfolio/portfolio-2.jpg"
+                        }
+                      >
+                        <img
+                          alt="images"
+                          src={
+                            
+                            "/images/portfolio/search-2.svg"
+                          }
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide">
+                <div className="single-portfolio">
+                  <div className="portfolio-data">
+                    <a href="#s">
+                      <img
+                        src={
+                          
+                          "/images/security.png"
+                        }
+                        alt="images"
+                      />
+                    </a>
+                  </div>
+                  <div className="portfolio-inner">
+                    <span>The Essence of Security</span>
+                    <h4>Security is not just a luxury; it’s a necessity. Whether you are a homeowner concerned about the safety of your</h4>
+                    <div className="portfolio-hover">
+                      <Link
+                        onClick={scrollTop}
+                        href={`/project-details`}
+                        className="case-btn"
+                      >
+                        Read More »
+                      </Link>
+                      <a
+                        data-lightbox="image1"
+                        href={
+                          
+                          "/images/portfolio/portfolio-3.jpg"
+                        }
+                      >
+                        <img
+                          alt="images"
+                          src={
+                            
+                            "/images/portfolio/search-2.svg"
+                          }
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide">
+                <div className="single-portfolio">
+                  <div className="portfolio-data">
+                    <a href="#s">
+                      <img
+                        src={
+                          
+                          "/images/blog2.png"
+                        }
+                        alt="images"
+                      />
+                    </a>
+                  </div>
+                  <div className="portfolio-inner">
+                    <span>Mastering Access Control</span>
+                    <h4>Access control is a fundamental aspect of security in today’s world. It plays a crucial role in safeguarding our physical</h4>
+                    <div className="portfolio-hover">
+                      <Link
+                        onClick={scrollTop}
+                        href={`/project-details`}
+                        className="case-btn"
+                      >
+                       Read More »
+                      </Link>
+                      <a
+                        data-lightbox="image1"
+                        href={
+                          
+                          "/images/portfolio/portfolio-4.jpg"
+                        }
+                      >
+                        <img
+                          alt="images"
+                          src={
+                            
+                            "/images/portfolio/search-2.svg"
+                          }
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide">
+                <div className="single-portfolio">
+                  <div className="portfolio-data">
+                    <a href="#s">
+                      <img
+                        src={
+                          
+                          "/images/inturder.png"
+                        }
+                        alt="images"
+                      />
+                    </a>
+                  </div>
+                  <div className="portfolio-inner">
+                    <span>The Power of Intruder Alarm Systems</span>
+                    <h4>Security is a fundamental human need. Whether you’re a homeowner or a business owner, the peace of mind that comes</h4>
+                    <div className="portfolio-hover">
+                      <Link
+                        onClick={scrollTop}
+                        href={`/project-details`}
+                        className="case-btn"
+                      >
+                       Read More »
+                      </Link>
+                      <a
+                        data-lightbox="image1"
+                        href={
+                          
+                          "/images/portfolio/portfolio-5.jpg"
+                        }
+                      >
+                        <img
+                          alt="images"
+                          src={
+                            
+                            "/images/portfolio/search-2.svg"
+                          }
+                        />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide">
+                <div className="single-portfolio">
+                  <div className="portfolio-data">
+                    <a href="#s">
+                      <img
+                        src={
+                          
+                          "/images/security.png"
+                        }
+                        alt="images"
+                      />
+                    </a>
+                  </div>
+                  <div className="portfolio-inner">
+                    <span>The Essence of Security</span>
+                    <h4>Security is not just a luxury; it’s a necessity. Whether you are a homeowner concerned about the safety of your</h4>
+                    <div className="portfolio-hover">
+                      <Link
+                        onClick={scrollTop}
+                        href={`/project-details`}
+                        className="case-btn"
+                      >
+                        Read More »
+                      </Link>
+                      <a
+                        data-lightbox="image1"
+                        href={
+                          
+                          "/images/portfolio/portfolio-3.jpg"
+                        }
+                      >
+                        <i className="fas fa-search" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </SwiperSlide>
+            </Swiper>
+            <div className="swiper-pagination" />
+            <div className="swiper-button-next" />
+            <div className="swiper-button-prev" />
+          </div>
       </div>
     </SRLWrapper>
   );

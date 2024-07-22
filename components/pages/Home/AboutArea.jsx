@@ -48,7 +48,7 @@ function AboutArea() {
                   </p>
                 </div>
                 <div className="cto">
-                  <img src="/images/ctoFounder.png" alt="imgs" />
+                  {/* <img src="/images/ctoFounder.png" alt="imgs" /> */}
                 </div>
               </div>
               <div className="cmn-btn">
@@ -73,8 +73,8 @@ function AboutArea() {
                       className="progress-bar-circle"
                     />
                     <div className="skill-content">
-                      <h6>web</h6>
-                      <p>Clean Design</p>
+                      {/* <h6>web</h6>
+                      <p>Clean Design</p> */}
                     </div>
                   </div>
                   <div className="signle-skill xsm">
@@ -84,8 +84,8 @@ function AboutArea() {
                       className="progress-bar-circle"
                     />
                     <div className="skill-content">
-                      <h6>App</h6>
-                      <p>Developing</p>
+                      {/* <h6>App</h6>
+                      <p>Developing</p> */}
                     </div>
                   </div>
                 </div>

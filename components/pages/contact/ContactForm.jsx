@@ -9,7 +9,7 @@ function ContactForm() {
           <div className="row">
             <div className="col-lg-6 col-xl-6">
               <div className="contact-form">
-                <h3>Have Any Questions</h3>
+                <h3>Ready to enhance your security infrastructure? We are here to assist you. Feel free to get in touch using the contact details below or use our convenient inquiry form.</h3>
                 <form
                   onSubmit={(e) => e.preventDefault()}
                   action="#"
@@ -43,7 +43,7 @@ function ContactForm() {
                       />
                     </div>
                     <div className="col-12">
-                      <input type="submit" defaultValue="Send Message" />
+                      <input type="submit" defaultValue="Send Request" />
                     </div>
                   </div>
                 </form>

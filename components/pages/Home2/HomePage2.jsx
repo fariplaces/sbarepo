@@ -13,7 +13,7 @@ function HomePage2(props) {
   return (
     <>
       <HeroArea />
-      <ServiceArea />
+      {/* <ServiceArea /> */}
       <About2Area />
       <OurPartnerArea />
       <PortfolioArea black="" />

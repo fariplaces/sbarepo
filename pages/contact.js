@@ -2,7 +2,7 @@
 import ContactPage from '../components/pages/contact/ContactPage'
 
 
-export default function about() {
+export default function contact() {
   return (
    <>
      <ContactPage />

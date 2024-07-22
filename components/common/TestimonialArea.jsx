@@ -54,9 +54,7 @@ function TestimonialArea() {
                         </div>
                       </div>
                       <p>
-                        <i className="fas fa-quote-left" />Experience Tranquility at Home: Elevate Security with Advanced Home Protection Solutions"
-
-{" "}
+                        <i className="fas fa-quote-left" />Experience Tranquility at Home: Elevate Security with Advanced Home Protection Solutions{" "}
                         <i className="fas fa-quote-right" />
                       </p>
                       <div className="rating">

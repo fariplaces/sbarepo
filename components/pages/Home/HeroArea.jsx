@@ -53,7 +53,7 @@ function HeroArea() {
                   <div className="hero-content-wrapper">
                     <div className="hero-content-wrap">
                       <div className="hero-content-img">
-                        <img src="/images/hero1.jpg" alt="Hero Slide 1" />
+                        <img src="/images/hero1.jpg" alt="images" />
                       </div>
                       <div className="hero-content">
                         <h2>Creative</h2>
@@ -86,7 +86,7 @@ function HeroArea() {
                   <div className="hero-content-wrapper">
                     <div className="hero-content-wrap">
                       <div className="hero-content-img">
-                        <img src="/images/hero2.webp" alt="Hero Slide 2" />
+                        <img src="/images/hero2.webp" alt="images" />
                       </div>
                       <div className="hero-content">
                         <h2>Creative</h2>
@@ -119,7 +119,7 @@ function HeroArea() {
                   <div className="hero-content-wrapper">
                     <div className="hero-content-wrap">
                       <div className="hero-content-img">
-                        <img src="/images/hero3.jpg" alt="Hero Slide 3" />
+                        <img src="/images/hero3.jpg" alt="images" />
                       </div>
                       <div className="hero-content">
                         <h2>Creative</h2>
