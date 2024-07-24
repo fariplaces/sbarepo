@@ -15,7 +15,7 @@ function Breadcrumb() {
         <div className="row">
           <div className="col-12">
             <div className="breadcrumb-wrapper">
-              <h1>Projects</h1>
+              <h1>Blogs</h1>
               <span>
               <Link href="/" onClick={scrollTop}>
   Home
@@ -29,7 +29,7 @@ function Breadcrumb() {
                     alt="images"
                   />
                 </i>
-                About us
+                Blogs
               </span>
             </div>
           </div>

@@ -1,56 +1,75 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 function PopularTag() {
   const scrollTop = () => window.scrollTo({ top: 0, behavior: "smooth" });
+
   return (
     <>
       <div className="sidebar-widget">
         <h4>Popular tag</h4>
         <ul className="tag-list">
           <li>
-            <Link to={"/"} onClick={scrollTop}>
-              Website
+            <Link href="/" scroll={false}>
+              <span onClick={scrollTop} style={{ cursor: 'pointer' }}>
+                Website
+              </span>
             </Link>
           </li>
           <li>
-            <Link to={"/"} onClick={scrollTop}>
-              Web Design
+            <Link href="/" scroll={false}>
+              <span onClick={scrollTop} style={{ cursor: 'pointer' }}>
+                Web Design
+              </span>
             </Link>
           </li>
           <li>
-            <Link to={""} onClick={scrollTop}>
-              Development
+            <Link href="/" scroll={false}>
+              <span onClick={scrollTop} style={{ cursor: 'pointer' }}>
+                Development
+              </span>
             </Link>
           </li>
           <li>
-            <Link to={"/"} onClick={scrollTop}>
-              Graphic Design
+            <Link href="/" scroll={false}>
+              <span onClick={scrollTop} style={{ cursor: 'pointer' }}>
+                Graphic Design
+              </span>
             </Link>
           </li>
           <li>
-            <Link to={"/"} onClick={scrollTop}>
-              Graphic
+            <Link href="/" scroll={false}>
+              <span onClick={scrollTop} style={{ cursor: 'pointer' }}>
+                Graphic
+              </span>
             </Link>
           </li>
           <li>
-            <Link to={"/"} onClick={scrollTop}>
-              UI/UX Design
+            <Link href="/" scroll={false}>
+              <span onClick={scrollTop} style={{ cursor: 'pointer' }}>
+                UI/UX Design
+              </span>
             </Link>
           </li>
           <li>
-            <Link to={"/"} onClick={scrollTop}>
-              Activities
+            <Link href="/" scroll={false}>
+              <span onClick={scrollTop} style={{ cursor: 'pointer' }}>
+                Activities
+              </span>
             </Link>
           </li>
           <li>
-            <Link to={"/"} onClick={scrollTop}>
-              Software Design
+            <Link href="/" scroll={false}>
+              <span onClick={scrollTop} style={{ cursor: 'pointer' }}>
+                Software Design
+              </span>
             </Link>
           </li>
           <li>
-            <Link to={"/"} onClick={scrollTop}>
-              3d Design
+            <Link href="/" scroll={false}>
+              <span onClick={scrollTop} style={{ cursor: 'pointer' }}>
+                3d Design
+              </span>
             </Link>
           </li>
         </ul>
