@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 function BlogDetailsWrapper() {
   const scrollTop = () => window.scrollTo({ top: 0, behavior: "smooth" });
@@ -9,24 +9,23 @@ function BlogDetailsWrapper() {
       <div className="blog-details">
         <div className="post-thumbnail">
           <img
-            src={process.env.PUBLIC_URL + "/images/post/blog-list-3.jpg"}
+            src="/images/post/blog-list-3.jpg"
             alt="blog images"
           />
         </div>
         <h3>
-          Nullam lacinia magna vitae mi tincidunt tudou owner Dolebon li
-          faucibus Aenean nec eros sagittis.
+        SMART SECURITY SERVICE FOR YOUR LIVE SAFETY
         </h3>
         <div className="author-comments">
           <div className="author">
             <div className="author-pic">
               <img
-                src={process.env.PUBLIC_URL + "/images/author/author-1.jpg"}
+                src="/images/atoma.jpg"
                 alt="blog images"
               />
             </div>
             <div className="author-info">
-              <h5>Posted by, Alen Jodge</h5>
+              <h5>Posted by, ATOMASZ</h5>
               <span>05 January, 2021</span>
             </div>
           </div>
@@ -37,31 +36,11 @@ function BlogDetailsWrapper() {
           </div>
         </div>
         <p>
-          Donec bibendum enim ut elit porta ullamcorper. Vestibulum quam nulla,
-          venenatis eget dapibus ac iaculis vitae nulla. Morbi mattis nec mi ac
-          mollis. Nam et consequat tellus, a varius magna. Curabitu iaculis,
-          ligula vitae commodo blandit, augue urna accumsan sapien, at accumsan
-          metus dolor eu ju Vivamus pharetra ullamcorper efficitur. Vestibulum
-          at ex in massa consequat faucibus. Nullam and gravida ex nisl, semper
-          lacinia urna mattis vel. Nullam pharetra aliquam sapien. Duis aliquet
-          varius commodo.Quisque ut dui pulvinar, sagittis mi vitae, posuere
-          justo. Ut ac metus porta orci posuere tegestas. Donec suscipit dapibus
-          purus at pretium. Morbi ullamcorper vulputate nibh eu tempus.
-          Fuvestibulum hendrerit dapibus. Nam lobortis urna vel augue
-          pellentesque lobortis. Cras non pharetrturpis. In tincidunt lacus et
-          fringilla malesuada. Aenean molestie, enim vel elementum sodales,
-          elitmagna condimentum lorem, nec pretium nunc felis sed nulla. In
-          efficitur dignissim velit, sed varius dapibus quis. Maecenas finibus
-          purus sit amet sem consequat faucibus.
+        Choose Watch Security for outstanding security solutions that merge proven quality, an expert team, cutting-edge technology, bespoke solutions, and consistent client satisfaction. Watch Security has established credibility among businesses, homeowners, and property owners and appreciates providing reliable security services. This includes sophisticated CCTV systems, intelligent intruder alarms, and cutting-edge access control. Our dedication to custom solutions means we shall work directly with you to meet your requirements for safety. Watch Security's clients regularly express their appreciation for our team's professionalism, quick responses, and practical outcomes. If your looking for a partner who will go above and beyond to keep your most prized possessions secure, Look no further than Watch Security.
         </p>
-        <h4>Curabitur semper quam sit amet lacus venenatis, iaculis.</h4>
+        <h4>We are Watch Security, an industry leader in cutting-edge security solutions for over a decade.</h4>
         <p>
-          Donec bibendum enim ut elit porta ullamcorper. Vestibulum quam nulla,
-          venenatis eget dapibus ac iaculis vitae nulla. Morbi mattis nec mi ac
-          mollis. Nam et consequat tellus, a varius magna. Curabituiaculis,
-          ligula vitae commodo blandit, augue urna accumsan sapien, at accumsan
-          metus dolor eu juVivamus pharetra ullamcorper efficitur. Vestibulum at
-          ex in massa consequat faucibus.
+        At Watch Security, we understand that every property and business is unique. That’s why we take a personalised approach to security, working closely with our clients to assess their requirements and design customised solutions that address their specific concerns. Whether it’s installing state-of-the-art CCTV systems, access control solutions, or intruder alarms, we have the expertise to deliver reliable and effective security measures.
         </p>
         <div className="blog-quate">
           <blockquote>
@@ -69,10 +48,8 @@ function BlogDetailsWrapper() {
               <i className="bi bi-quote" />
             </div>
             <p>
-              Donec bibendum enim ut elit porta ullamcorper. met eitye gueni
-              iaculis vitae nulla. Morbi mattis nec mi ac mollis. Nam etjinanan
-              consequat tellus, a varius magna. Vestibulum and <br />
-              <b>Ambrela Jwe</b>
+            We pride ourselves on our commitment to customer satisfaction. Our team of engineers is not only highly skilled but also dedicated to providing exceptional service <br />
+              <b>Watch Security</b>
             </p>
             <div className="quote-right">
               <i className="bi bi-quote" />
@@ -80,34 +57,22 @@ function BlogDetailsWrapper() {
           </blockquote>
         </div>
         <p>
-          Donec bibendum enim ut elit porta ullamcorper. Vestibulum quam nulla,
-          venenatis eget dapibus ac iaculis vitae nulla. Morbi mattis nec mi ac
-          mollis. Nam et consequat tellus, a varius magna. Curabitu iaculis,
-          ligula vitae commodo blandit, augue urna accumsan sapien, at accumsan
-          metus dolor eu ju Vivamus pharetra ullamcorper efficitur. Vestibulum
-          at ex in massa consequat faucibus.
+        At Watch Security, we stay at the forefront of technological advancements in the security industry. By partnering with leading manufacturers, we offer cutting-edge solutions that integrate seamlessly into our clients’ properties, providing them with advanced security features and remote monitoring capabilities.
         </p>
         <div className="blog-banner">
           <div className="row">
             <div className="col-xl-6">
               <div className="blog-banner-img">
                 <img
-                  src={process.env.PUBLIC_URL + "/images/blog-banner.png"}
+                  src="/images/blog-banner.png"
                   alt="blog images"
                 />
               </div>
             </div>
             <div className="col-xl-6">
               <div className="blog-banner-content">
-                <p>
-                  Donec bibendum enim ut elit porta ullamcorper Vestibulum quam
-                  nulla, venenatis eget dapibus iaculis vitae nulla. Morbi
-                  mattis nec mi ac mollis Nam et consequat tellus, a varius
-                  magna. toma iaculis, ligula vitae commodo blandit, augue
-                  aburna accumsan sapien, at accumsan metus dolVivamus pharetra
-                  ullamcorper efficitur. aciyono Vestibulum quam nulla,
-                  venenatis eget dapibus iaculis vitae nulla. Morbi mattis nec
-                  mi ac tisanVestibulum at ex in massa consequat faucibus.
+              <p>
+                Watch Security is a leading provider of electronic security and alarm monitoring services for residential, small, and large businesses across the United Kingdom. With our commitment to safeguarding homes and businesses, we offer reliable and innovative security solutions tailored to meet the unique needs of our clients. Led by our dedicated Managing Director, Hassan Khan, and supported by a team of highly skilled and professional engineers, Watch Security has built a reputation for excellence in the industry. Our team brings together extensive expertise in electronic security systems, ensuring that our clients receive the highest level of protection and peace of mind.
                 </p>
               </div>
             </div>
@@ -115,14 +80,14 @@ function BlogDetailsWrapper() {
           <div className="row">
             <div className="col-md-6 col-xl-8">
               <div className="tags">
-                <Link onClick={scrollTop} to={"#"}>
-                  Website
+                <Link href="#" onClick={scrollTop}>
+                Access Control
                 </Link>
-                <Link onClick={scrollTop} to={"#"}>
-                  Software Design
+                <Link href="#" onClick={scrollTop}>
+                Security Guard
                 </Link>
-                <Link onClick={scrollTop} to={"#"}>
-                  UI/UX Design
+                <Link href="#" onClick={scrollTop}>
+                Fire Alarm System
                 </Link>
               </div>
             </div>

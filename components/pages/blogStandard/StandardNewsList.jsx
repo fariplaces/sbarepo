@@ -1,8 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 function StandardNewsList() {
   const scrollTop = () => window.scrollTo({ top: 0, behavior: "smooth" });
+
   return (
     <>
       <div className="row gy-5">
@@ -10,11 +11,11 @@ function StandardNewsList() {
           <div className="signle-news-list">
             <div className="post-img">
               <Link
-                to={`${process.env.PUBLIC_URL}/blog-details`}
+                href="/blog-details"
                 onClick={scrollTop}
               >
                 <img
-                  src={process.env.PUBLIC_URL + "/images/post/blog-list-3.jpg"}
+                  src="/images/post/blog-list-3.jpg"
                   alt="images"
                 />
               </Link>
@@ -24,20 +25,18 @@ function StandardNewsList() {
                 <div className="author">
                   <div className="author-pic">
                     <img
-                      src={
-                        process.env.PUBLIC_URL + "/images/author/author-1.jpg"
-                      }
+                      src="/images/morgan.jpg"
                       alt="images"
                     />
                   </div>
                   <div className="author-info">
-                    <h5>Posted by, Alen Jodge</h5>
+                    <h5>Posted by, Mike Morgan</h5>
                     <span>05 January, 2022</span>
                   </div>
                 </div>
               </div>
               <div className="comment">
-                <Link to={"#"}>
+                <Link href="#">
                   <span>
                     <i className="bi bi-chat-dots" />
                     comments (01)
@@ -46,16 +45,17 @@ function StandardNewsList() {
               </div>
               <h3>
                 <Link
-                  to={`${process.env.PUBLIC_URL}/blog-details`}
+                  href="/blog-details"
                   onClick={scrollTop}
                 >
-                  Morbi quis mi sed sem ullamcorper rutrum eget eget laci
-                  antenica Vitaen Praesent eget mi eget mauris.
+                  <p>
+                      It is the first time I have used Hassan and his team and mu expectations have been exceeded. The professionalism and quality of the work has been fantastic and also the customer care has been great. I would definitely use the team again in the future, for example if i update my alarams system and I highly recommend the team.
+                    </p>
                 </Link>
               </h3>
               <div className="view-btn">
                 <Link
-                  to={`${process.env.PUBLIC_URL}/blog-details`}
+                  href="/blog-details"
                   onClick={scrollTop}
                 >
                   View details
@@ -68,11 +68,11 @@ function StandardNewsList() {
           <div className="signle-news-list">
             <div className="post-img">
               <Link
-                to={`${process.env.PUBLIC_URL}/blog-details`}
+                href="/blog-details"
                 onClick={scrollTop}
               >
                 <img
-                  src={process.env.PUBLIC_URL + "/images/post/blog-list-1.jpg"}
+                  src="/images/post/blog-list-1.jpg"
                   alt="images"
                 />
               </Link>
@@ -82,20 +82,18 @@ function StandardNewsList() {
                 <div className="author">
                   <div className="author-pic">
                     <img
-                      src={
-                        process.env.PUBLIC_URL + "/images/author/author-2.jpg"
-                      }
+                      src="/images/atoma.jpg"
                       alt="images"
                     />
                   </div>
                   <div className="author-info">
-                    <h5>Posted by, Zeksa Nos</h5>
+                    <h5>Posted by,  ATOMASZ</h5>
                     <span>07 January, 2022</span>
                   </div>
                 </div>
               </div>
               <div className="comment">
-                <Link to={"#"}>
+                <Link href="#">
                   <span>
                     <i className="bi bi-chat-dots" />
                     comments (01)
@@ -104,16 +102,17 @@ function StandardNewsList() {
               </div>
               <h3>
                 <Link
-                  to={`${process.env.PUBLIC_URL}/blog-details`}
+                  href="/blog-details"
                   onClick={scrollTop}
                 >
-                  Suspendisse quis scelerisque elit. Aliquam erat volutpata
-                  Quisque suscipit vel felis quis pharetra.
+                 <p>
+                      Positive: Professionalism, Punctually, Quality, Responsiveness, Value Hassan and it team have been recommended to my by the company who provided my gate. I can say I could not recommend them enough for their swift and professional services.And very reason-able prices!! If i need anything in the future
+                    </p>
                 </Link>
               </h3>
               <div className="view-btn">
                 <Link
-                  to={`${process.env.PUBLIC_URL}/blog-details`}
+                  href="/blog-details"
                   onClick={scrollTop}
                 >
                   View details
@@ -126,11 +125,11 @@ function StandardNewsList() {
           <div className="signle-news-list">
             <div className="post-img">
               <Link
-                to={`${process.env.PUBLIC_URL}/blog-details`}
+                href="/blog-details"
                 onClick={scrollTop}
               >
                 <img
-                  src={process.env.PUBLIC_URL + "/images/post/blog-list-2.jpg"}
+                  src="/images/post/blog-list-2.jpg"
                   alt="images"
                 />
               </Link>
@@ -140,20 +139,18 @@ function StandardNewsList() {
                 <div className="author">
                   <div className="author-pic">
                     <img
-                      src={
-                        process.env.PUBLIC_URL + "/images/author/author-3.jpg"
-                      }
+                      src="/images/morgan.jpg"
                       alt="images"
                     />
                   </div>
                   <div className="author-info">
-                    <h5>Posted by, Kemsi Log</h5>
+                    <h5>Posted by,Mike Morgan</h5>
                     <span>05 January, 2022</span>
                   </div>
                 </div>
               </div>
               <div className="comment">
-                <Link to={"#"}>
+                <Link href="#">
                   <span>
                     <i className="bi bi-chat-dots" />
                     comments (01)
@@ -162,16 +159,17 @@ function StandardNewsList() {
               </div>
               <h3>
                 <Link
-                  to={`${process.env.PUBLIC_URL}/blog-details`}
+                  href="/blog-details"
                   onClick={scrollTop}
                 >
-                  Nunc ipsum nunc, varius non est in, sollicitudin facilisisai
-                  velit. Ut nec urna in eros rutrum varius
+                  <p>
+                      It is the first time I have used Hassan and his team and mu expectations have been exceeded. The professionalism and quality of the work has been fantastic and also the customer care has been great. I would definitely use the team again in the future, for example if i update my alarams system and I highly recommend the team.
+                    </p>
                 </Link>
               </h3>
               <div className="view-btn">
                 <Link
-                  to={`${process.env.PUBLIC_URL}/blog-details`}
+                  href="/blog-details"
                   onClick={scrollTop}
                 >
                   View details

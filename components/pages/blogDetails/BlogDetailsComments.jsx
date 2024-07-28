@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 function BlogDetailsComments() {
   const scrollTop = () => window.scrollTo({ top: 0, behavior: "smooth" });
@@ -8,26 +8,24 @@ function BlogDetailsComments() {
     <>
       <div className="blog-comments">
         <h3>Comment</h3>
+        
         <div className="single-comments">
           <div className="post-author">
             <img
-              src={process.env.PUBLIC_URL + "/images/comment-author-1.png"}
+              src="/images/single4.png"
               alt="blog comments images"
             />
           </div>
           <div className="post-author-details">
-            <h4>Polard Girdet</h4>
+            <h4>Home Security</h4>
             <span>11 January, 2022 At 01.56 pm</span>
             <p>
-              Donec bibendum enim ut elit porta ullamcorper. Vestibulum quam
-              nulla, venenatis eget iculis vitae nulla. Morbi mattis nec mi ac
-              mollis. Nam et consequat tellus, a varius magiaculis, ligula vitae
-              commodo blandit, augue urna accumsan sapien.
+            Watch Security is a leading provider of electronic security and alarm monitoring services for residential, small, and large businesses across the United Kingdom. With our commitment to safeguarding homes and businesses, we offer reliable and innovative security solutions tailored to meet the unique needs of our clients. 
             </p>
             <div className="reply">
-              <Link to={"#"} onClick={scrollTop}>
+              <Link href="#" onClick={scrollTop}>
                 <img
-                  src={process.env.PUBLIC_URL + "/images/icons/arrow-reply.svg"}
+                  src="/images/icons/arrow-reply.svg"
                   alt="blog comments images"
                 />{" "}
                 Reply
@@ -35,26 +33,24 @@ function BlogDetailsComments() {
             </div>
           </div>
         </div>
+
         <div className="single-comments">
           <div className="post-author">
             <img
-              src={process.env.PUBLIC_URL + "/images/comment-author-2.png"}
+              src="/images/single5.png"
               alt="blog comments images"
             />
           </div>
           <div className="post-author-details">
-            <h4>Jhohan Doe</h4>
+            <h4>Access Control</h4>
             <span>11 January, 2022 At 01.56 pm</span>
             <p>
-              Donec bibendum enim ut elit porta ullamcorper. Vestibulum quam
-              nulla, venenatis eget iculis vitae nulla. Morbi mattis nec mi ac
-              mollis. Nam et consequat tellus, a varius magiaculis, ligula vitae
-              commodo blandit, augue urna accumsan sapien.
+            At Watch Security, we understand that every property and business is unique. That’s why we take a personalised approach to security, working closely with our clients to assess their requirements and design customised solutions that address their specific concerns. Whether it’s installing state-of-the-art CCTV systems, access control solutions, or intruder alarms, we have the expertise to deliver reliable and effective security measures.
             </p>
             <div className="reply">
-              <Link to={"#"} onClick={scrollTop}>
+              <Link href="#" onClick={scrollTop}>
                 <img
-                  src={process.env.PUBLIC_URL + "/images/icons/arrow-reply.svg"}
+                  src="/images/icons/arrow-reply.svg"
                   alt="blog comments images"
                 />{" "}
                 Reply
@@ -62,26 +58,24 @@ function BlogDetailsComments() {
             </div>
           </div>
         </div>
+
         <div className="single-comments">
           <div className="post-author">
             <img
-              src={process.env.PUBLIC_URL + "/images/comment-author-3.png"}
+              src="/images/single6.png"
               alt="blog comments images"
             />
           </div>
           <div className="post-author-details">
-            <h4>Daniel Vittori</h4>
+            <h4>Emergency Lighting</h4>
             <span>11 January, 2022 At 01.56 pm</span>
             <p>
-              Donec bibendum enim ut elit porta ullamcorper. Vestibulum quam
-              nulla, venenatis eget iculis vitae nulla. Morbi mattis nec mi ac
-              mollis. Nam et consequat tellus, a varius magiaculis, ligula vitae
-              commodo blandit, augue urna accumsan sapien.
+            Watch Security is a leading provider of electronic security and alarm monitoring services for residential, small, and large businesses across the United Kingdom. With our commitment to safeguarding homes and businesses, we offer reliable and innovative security solutions tailored to meet the unique needs of our clients. Led by our dedicated Managing Director, Hassan Khan, and supported by a team of highly skilled and professional engineers, Watch Security has built a reputation for excellence in the industry.
             </p>
             <div className="reply">
-              <Link to={"#"} onClick={scrollTop}>
+              <Link href="#" onClick={scrollTop}>
                 <img
-                  src={process.env.PUBLIC_URL + "/images/icons/arrow-reply.svg"}
+                  src="/images/icons/arrow-reply.svg"
                   alt="blog comments images"
                 />{" "}
                 Reply
@@ -89,6 +83,7 @@ function BlogDetailsComments() {
             </div>
           </div>
         </div>
+
         <div className="comment-form">
           <h3>Leave A Comment</h3>
           <form onSubmit={(e) => e.preventDefault()} action="#" method="post">
@@ -107,7 +102,7 @@ function BlogDetailsComments() {
                   placeholder="Type Your Message"
                   defaultValue={""}
                 />
-                <input type="submit" defaultValue="Submit Comment" />
+                <input type="submit" value="Submit Comment" />
               </div>
             </div>
           </form>

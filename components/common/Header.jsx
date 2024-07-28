@@ -90,7 +90,7 @@ function Header() {
             <div className="logo">
               <Link onClick={scrollTop} href={"/"} legacyBehavior>
                 <img
-                  src={"/images/logo.png"}
+                  src={"/images/watchlogo.png"}
                   alt=""
                 />
               </Link>
@@ -165,7 +165,7 @@ function Header() {
                         onClick={scrollTop}
                         href={"/service-details"}
                       >
-                        Service Details
+                        Services 
                       </Link>
                     </li>
                   </ul>
@@ -223,7 +223,7 @@ function Header() {
                         onClick={scrollTop}
                         href={"/blog-standard"}
                       >
-                        Blog standard
+                        Blog 01
                       </Link>
                     </li>
                     <li>
@@ -231,7 +231,7 @@ function Header() {
                         onClick={scrollTop}
                         href={"/blog-details"}
                       >
-                        Blog Details
+                        Blog 02
                       </Link>
                     </li>
                   </ul>
