@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 function ServiceDetailsWrapper() {
   const scrollTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -71,9 +71,8 @@ function ServiceDetailsWrapper() {
                 <ul className="service-list">
                   <li>
                     <Link
-                      onClick={scrollTop}
-                      to={`${process.env.PUBLIC_URL}/service-details`}
-                    >
+                       onClick={scrollTop}
+                       href={`/service-details`} passHref>
                       <i>
                         <img
                           src={
@@ -88,9 +87,8 @@ function ServiceDetailsWrapper() {
                   </li>
                   <li>
                     <Link
-                      onClick={scrollTop}
-                      to={`${process.env.PUBLIC_URL}/service-details`}
-                    >
+                       onClick={scrollTop}
+                       href={`/service-details`} passHref>
                       <i>
                         <img
                           src={
@@ -106,8 +104,7 @@ function ServiceDetailsWrapper() {
                   <li>
                     <Link
                       onClick={scrollTop}
-                      to={`${process.env.PUBLIC_URL}/service-details`}
-                    >
+                      href={`/service-details`} passHref>
                       <i>
                         <img
                           src={
@@ -123,8 +120,7 @@ function ServiceDetailsWrapper() {
                   <li>
                     <Link
                       onClick={scrollTop}
-                      to={`${process.env.PUBLIC_URL}/service-details`}
-                    >
+                      href={`/service-details`} passHref>
                       <i>
                         <img
                           src={
@@ -140,8 +136,7 @@ function ServiceDetailsWrapper() {
                   <li>
                     <Link
                       onClick={scrollTop}
-                      to={`${process.env.PUBLIC_URL}/service-details`}
-                    >
+                      href={`/service-details`} passHref>
                       <i>
                         <img
                           src={
@@ -156,9 +151,8 @@ function ServiceDetailsWrapper() {
                   </li>
                   <li>
                     <Link
-                      onClick={scrollTop}
-                      to={`${process.env.PUBLIC_URL}/service-details`}
-                    >
+                       onClick={scrollTop}
+                       href={`/service-details`} passHref>
                       <i>
                         <img
                           src={

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 function PriceBox(props) {
   const scrollTop = () => {
@@ -40,7 +40,8 @@ function PriceBox(props) {
             </li>
           </ul>
           <div className="pay-btn">
-            <Link onClick={scrollTop} to={`${process.env.PUBLIC_URL}/contact`}>Pay Now</Link>
+            <Link  onClick={scrollTop}
+                        href={`/contact`} passHref>Pay Now</Link>
           </div>
         </div>
       </div>

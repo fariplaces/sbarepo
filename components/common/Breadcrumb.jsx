@@ -22,12 +22,12 @@ function Breadcrumb() {
 </Link>
 
                 <i>
-                  {/* <img
+                  <img
                     src={
                       "/images/about.png"
                     }
                     alt="images"
-                  /> */}
+                  />
                 </i>
                 Blogs
               </span>

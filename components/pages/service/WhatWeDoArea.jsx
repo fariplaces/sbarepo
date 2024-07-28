@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Link from "next/link";
 
 function WhatWeDoArea() {
   const scrollTop = () => {
@@ -20,10 +20,12 @@ function WhatWeDoArea() {
                 <div className="cmn-btn">
                   <Link
                     onClick={scrollTop}
-                    to={`${process.env.PUBLIC_URL}/service`}
-                  >
+                    href={`/service`} passHref>
+                  
                     view all services
                   </Link>
+
+                  
                 </div>
               </div>
             </div>
@@ -51,8 +53,8 @@ function WhatWeDoArea() {
                       </p>
                       <Link
                         onClick={scrollTop}
-                        to={`${process.env.PUBLIC_URL}/service-details`}
-                      >
+                        href={`/service-details`} passHref>
+                      
                         read more
                         <i>
                           <img
@@ -88,9 +90,9 @@ function WhatWeDoArea() {
                         dolor.
                       </p>
                       <Link
-                        onClick={scrollTop}
-                        to={`${process.env.PUBLIC_URL}/service-details`}
-                      >
+                         onClick={scrollTop}
+                         href={`/service-details`} passHref>
+                    
                         read more
                         <i>
                           <img
@@ -126,9 +128,9 @@ function WhatWeDoArea() {
                         dolor.
                       </p>
                       <Link
-                        onClick={scrollTop}
-                        to={`${process.env.PUBLIC_URL}/service-details`}
-                      >
+                         onClick={scrollTop}
+                         href={`/service-details`} passHref>
+                      
                         read more
                         <i>
                           <img
@@ -164,9 +166,8 @@ function WhatWeDoArea() {
                         dolor.
                       </p>
                       <Link
-                        onClick={scrollTop}
-                        to={`${process.env.PUBLIC_URL}/service-details`}
-                      >
+                         onClick={scrollTop}
+                         href={`/service-details`} passHref>
                         read more
                         <i>
                           <img
@@ -204,8 +205,7 @@ function WhatWeDoArea() {
                   </p>
                   <Link
                     onClick={scrollTop}
-                    to={`${process.env.PUBLIC_URL}/service-details`}
-                  >
+                    href={`/service-details`} passHref>
                     read more
                     <i>
                       <img
@@ -241,8 +241,7 @@ function WhatWeDoArea() {
                   </p>
                   <Link
                     onClick={scrollTop}
-                    to={`${process.env.PUBLIC_URL}/service-details`}
-                  >
+                    href={`/service-details`} passHref>
                     read more
                     <i>
                       <img
@@ -278,8 +277,7 @@ function WhatWeDoArea() {
                   </p>
                   <Link
                     onClick={scrollTop}
-                    to={`${process.env.PUBLIC_URL}/service-details`}
-                  >
+                    href={`/service-details`} passHref>
                     read more
                     <i>
                       <img

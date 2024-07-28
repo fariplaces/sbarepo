@@ -4,6 +4,7 @@ import LetsTalkArea from "../../common/LetsTalkArea";
 import HowWeWorkArea from "./HowWeWorkArea";
 import ServicePrice from "./ServicePrice";
 import WhatWeDoArea from "./WhatWeDoArea";
+import PriceBox from "./PriceBox";
 
 function ServicesPage() {
   return (
@@ -13,6 +14,7 @@ function ServicesPage() {
       <HowWeWorkArea />
       <ServicePrice />
       <LetsTalkArea />
+      <PriceBox/>
     </>
   );
 }
