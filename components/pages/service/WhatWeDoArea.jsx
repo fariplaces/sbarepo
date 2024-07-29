@@ -22,7 +22,7 @@ function WhatWeDoArea() {
                     onClick={scrollTop}
                     href={`/service`} passHref>
                   
-                    view all services
+                    Check all services
                   </Link>
 
                   
@@ -38,7 +38,7 @@ function WhatWeDoArea() {
                       <i>
                         <img
                           src={
-                            process.env.PUBLIC_URL +
+                            
                             "/images/icons/service-icon-1.png"
                           }
                           alt="images"
@@ -46,10 +46,9 @@ function WhatWeDoArea() {
                       </i>
                     </div>
                     <div className="service-content">
-                      <h4>web design</h4>
+                      <h4>Smart CCTV System</h4>
                       <p>
-                        interger purus adio, placerat ni in, ullamcorper nec
-                        dolor.
+                        Robust CCTV solutions protect you business & secure it with much confidence.
                       </p>
                       <Link
                         onClick={scrollTop}
@@ -59,7 +58,7 @@ function WhatWeDoArea() {
                         <i>
                           <img
                             src={
-                              process.env.PUBLIC_URL +
+                             
                               "/images/icons/arrow-circle.png"
                             }
                             alt="images"
@@ -76,7 +75,7 @@ function WhatWeDoArea() {
                       <i>
                         <img
                           src={
-                            process.env.PUBLIC_URL +
+                           
                             "/images/icons/service-icon-2.png"
                           }
                           alt="images"
@@ -84,10 +83,9 @@ function WhatWeDoArea() {
                       </i>
                     </div>
                     <div className="service-content">
-                      <h4>App design</h4>
+                      <h4>Access Control</h4>
                       <p>
-                        interger purus adio, placerat ni in, ullamcorper nec
-                        dolor.
+                        Biometric fingerprint access control experience seamless and secure entry.
                       </p>
                       <Link
                          onClick={scrollTop}
@@ -97,7 +95,7 @@ function WhatWeDoArea() {
                         <i>
                           <img
                             src={
-                              process.env.PUBLIC_URL +
+                              
                               "/images/icons/arrow-circle.png"
                             }
                             alt="images"
@@ -114,7 +112,7 @@ function WhatWeDoArea() {
                       <i>
                         <img
                           src={
-                            process.env.PUBLIC_URL +
+                            
                             "/images/icons/service-icon-3.png"
                           }
                           alt="images"
@@ -122,10 +120,9 @@ function WhatWeDoArea() {
                       </i>
                     </div>
                     <div className="service-content">
-                      <h4>Developing</h4>
+                      <h4>Smart Inturder Alarms </h4>
                       <p>
-                        interger purus adio, placerat ni in, ullamcorper nec
-                        dolor.
+                    Inturder Alarms - Protect your business with Advanced Alarm System.
                       </p>
                       <Link
                          onClick={scrollTop}
@@ -135,7 +132,7 @@ function WhatWeDoArea() {
                         <i>
                           <img
                             src={
-                              process.env.PUBLIC_URL +
+                              
                               "/images/icons/arrow-circle.png"
                             }
                             alt="images"
@@ -152,7 +149,7 @@ function WhatWeDoArea() {
                       <i>
                         <img
                           src={
-                            process.env.PUBLIC_URL +
+                            
                             "/images/icons/service-icon-4.png"
                           }
                           alt="images"
@@ -160,10 +157,9 @@ function WhatWeDoArea() {
                       </i>
                     </div>
                     <div className="service-content">
-                      <h4>Graphic design</h4>
+                      <h4>Electric Gates</h4>
                       <p>
-                        interger purus adio, placerat ni in, ullamcorper nec
-                        dolor.
+                        Secure your entrance in style - Electric Gates for effortless elegence and enhanced security.
                       </p>
                       <Link
                          onClick={scrollTop}
@@ -172,7 +168,7 @@ function WhatWeDoArea() {
                         <i>
                           <img
                             src={
-                              process.env.PUBLIC_URL +
+                              
                               "/images/icons/arrow-circle.png"
                             }
                             alt="images"
@@ -191,7 +187,7 @@ function WhatWeDoArea() {
                   <i>
                     <img
                       src={
-                        process.env.PUBLIC_URL +
+                        
                         "/images/icons/service-icon-5.png"
                       }
                       alt="images"
@@ -210,7 +206,7 @@ function WhatWeDoArea() {
                     <i>
                       <img
                         src={
-                          process.env.PUBLIC_URL +
+                          
                           "/images/icons/arrow-circle.png"
                         }
                         alt="images"
@@ -227,7 +223,7 @@ function WhatWeDoArea() {
                   <i>
                     <img
                       src={
-                        process.env.PUBLIC_URL +
+                       
                         "/images/icons/service-icon-6.png"
                       }
                       alt="images"
@@ -246,7 +242,7 @@ function WhatWeDoArea() {
                     <i>
                       <img
                         src={
-                          process.env.PUBLIC_URL +
+                         
                           "/images/icons/arrow-circle.png"
                         }
                         alt="images"
@@ -263,7 +259,7 @@ function WhatWeDoArea() {
                   <i>
                     <img
                       src={
-                        process.env.PUBLIC_URL +
+                        
                         "/images/icons/service-icon-7.png"
                       }
                       alt="images"
@@ -282,7 +278,7 @@ function WhatWeDoArea() {
                     <i>
                       <img
                         src={
-                          process.env.PUBLIC_URL +
+                         
                           "/images/icons/arrow-circle.png"
                         }
                         alt="images"

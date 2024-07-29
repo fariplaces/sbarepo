@@ -14,38 +14,29 @@ function ServiceDetailsWrapper() {
                 <h3>
                   <img
                     src={
-                      process.env.PUBLIC_URL +
+                      
                       "/images/icons/service-details-icon.svg"
                     }
                     alt="images"
                   />
-                  Web Design
+                About My Services
                 </h3>
                 <p>
-                  In euismod lacinia rhoncus. Morbi ornare, lectus quis mattis
-                  finibus, metus sapien venenatis orci,in eget lacinia magna
-                  justo vehicula metus. Morbi sit amet erat faucibus, sagittis
-                  libero sed, thatenigr condimentum tortor. Aenean ac nunc
-                  dolor. Quisque vestibulum mollis nisi, vel dictum nisi. nangol
-                  Vestibulum tempor tristique neque non pretium. Etiam leo
-                  risus, consectetur sagittis ullamcorper scelerisque, blandit
-                  vitae sem. Etiam semper enim sapien, nec consequat lectus
-                  pellentesque sit amet. Curabitur viverra ac tortor a
-                  porttitor. Donec tristique, dui at molestie facilisis, justo
-                  dolor on dapibus urna, sit amet viverra elit neque a
-                  lectus.Etiam semper enim sapien, nec consequat lectus
-                  pellentesque sit amet.Fusce mollis faucibus malesuada.
-                  Curabitur et enim auctor, rhoncus elit then fermentum, luctus
-                  tortor. Curabitur quam nisi, ornare elementum tellus eget,
-                  nangol Vestibulum tempor tristique neque non pretium. Etiam
-                  leo risus, consectetur sagittis ullamcorper scelerisque,
-                  blandit vitae sem. Etiam semper enim sapien, nec consequat
-                  lectus pellentesque sit amet. Curabitur viverra ac tortor a
-                  porttitor. Donec tristique, dui at molestie facilisis, justo
-                  dolor on dapibus urna, sit amet viverra elit neque a lectus.
-                  luctus maximus fore lectus. Sed egestas facilisis convallis.
-                  Proin dapibus magna vitae dolor accumsan, a egestas velitEtiam
-                  semper enim sapien.
+                At Watch Security, we understand that access control is the first line of defense. Elevate your security with our innovative solutions seamlessly integrating into your existing infrastructure. Contact Us to discuss how our access control systems can enhance the security of your premises.
+Enhanced Security Through Smart Technology
+Restriction of Unauthorized Access
+Improved Employee Accountability
+
+OurAccess Control Services Include
+
+eyless Entry
+Embrace the future of security with keyless entry options, enhancing convenience and eliminating the risks associated with traditional keys.
+
+Biometric Scanners
+Ensure secure access with our biometric scanners, utilizing fingerprint or facial recognition technology for accurate and reliable identification.
+
+Time and Attendance Tracking
+Efficiently manage employee access and attendance with integrated systems that enhance security and streamline administrative processes.
                 </p>
               </div>
             </div>
@@ -76,13 +67,13 @@ function ServiceDetailsWrapper() {
                       <i>
                         <img
                           src={
-                            process.env.PUBLIC_URL +
+                            
                             "/images/icons/dash-circle-icon.svg"
                           }
                           alt="images"
                         />
                       </i>
-                      Web Design <span>(15)</span>
+                      Maintanance <span>(15)</span>
                     </Link>
                   </li>
                   <li>
@@ -92,13 +83,13 @@ function ServiceDetailsWrapper() {
                       <i>
                         <img
                           src={
-                            process.env.PUBLIC_URL +
+                            
                             "/images/icons/dash-circle-icon.svg"
                           }
                           alt="images"
                         />
                       </i>
-                      Apps Development <span>(18)</span>
+                      Gates & Barriers <span>(18)</span>
                     </Link>
                   </li>
                   <li>
@@ -108,13 +99,13 @@ function ServiceDetailsWrapper() {
                       <i>
                         <img
                           src={
-                            process.env.PUBLIC_URL +
+                            
                             "/images/icons/dash-circle-icon.svg"
                           }
                           alt="images"
                         />
                       </i>
-                      Software Development <span>(21)</span>
+                      CCTV <span>(21)</span>
                     </Link>
                   </li>
                   <li>
@@ -124,13 +115,13 @@ function ServiceDetailsWrapper() {
                       <i>
                         <img
                           src={
-                            process.env.PUBLIC_URL +
+                            
                             "/images/icons/dash-circle-icon.svg"
                           }
                           alt="images"
                         />
                       </i>
-                      Motion Graphics <span>(25)</span>
+                     Inturder Alarms <span>(25)</span>
                     </Link>
                   </li>
                   <li>
@@ -140,13 +131,13 @@ function ServiceDetailsWrapper() {
                       <i>
                         <img
                           src={
-                            process.env.PUBLIC_URL +
+                            
                             "/images/icons/dash-circle-icon.svg"
                           }
                           alt="images"
                         />
                       </i>
-                      UI/UX Design <span>(29)</span>
+                      Access Control <span>(29)</span>
                     </Link>
                   </li>
                   <li>
@@ -156,13 +147,13 @@ function ServiceDetailsWrapper() {
                       <i>
                         <img
                           src={
-                            process.env.PUBLIC_URL +
+                            
                             "/images/icons/dash-circle-icon.svg"
                           }
                           alt="images"
                         />
                       </i>
-                      Graphic Design <span>(31)</span>
+                      Automatic Electric Gates <span>(31)</span>
                     </Link>
                   </li>
                 </ul>
@@ -194,7 +185,7 @@ function ServiceDetailsWrapper() {
                 <div className="col-md-4 col-xl-4 or1">
                   <div className="step-img">
                     <img
-                      src={process.env.PUBLIC_URL + "/images/step-1.png"}
+                      src={ "/images/step-1.png"}
                       alt="images"
                     />
                   </div>
@@ -206,7 +197,7 @@ function ServiceDetailsWrapper() {
                 <div className="col-md-4 col-xl-4">
                   <div className="step-img">
                     <img
-                      src={process.env.PUBLIC_URL + "/images/step-2.jpg"}
+                      src={ "/images/step-2.jpg"}
                       alt="images"
                     />
                   </div>
@@ -254,7 +245,7 @@ function ServiceDetailsWrapper() {
                 <div className="col-md-4 col-xl-4 or1">
                   <div className="step-img">
                     <img
-                      src={process.env.PUBLIC_URL + "/images/step-3.jpg"}
+                      src={ "/images/step-3.jpg"}
                       alt="images"
                     />
                   </div>

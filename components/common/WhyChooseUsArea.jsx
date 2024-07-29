@@ -11,7 +11,7 @@ function WhyChooseUsArea(props) {
       <section className="why-choose-us sec-mar">
         <div className="container">
           <div className="row">
-            <div className="col-md-6 col-lg-6 col-xl-6">
+            <div className="col-md-6 col-lg-6 col-xl-6"> 
               <div className={`title ${props.black}`}>
                 <span>Why Choose Watch Security LTD</span>
                 <h2 className="mb-15">
@@ -37,7 +37,7 @@ function WhyChooseUsArea(props) {
                   alt="images"
                 />
                 <div className="signle-bar pt-0">
-                  <h6>Web Design</h6>
+                  <h6>Access control</h6>
                   <ProgressBar
                     bgColor="#D90A2C"
                     baseBgColor="#d90a2c80"
@@ -50,7 +50,7 @@ function WhyChooseUsArea(props) {
                   />
                 </div>
                 <div className="signle-bar">
-                  <h6>App Development</h6>
+                  <h6>Maintanance</h6>
                   <ProgressBar
                     bgColor="#D90A2C"
                     baseBgColor="#d90a2c80"
@@ -63,7 +63,7 @@ function WhyChooseUsArea(props) {
                   />
                 </div>
                 <div className="signle-bar">
-                  <h6>Backend</h6>
+                  <h6>Security Guard</h6>
                   <ProgressBar
                     bgColor="#D90A2C"
                     baseBgColor="#d90a2c80"
@@ -76,7 +76,7 @@ function WhyChooseUsArea(props) {
                   />
                 </div>
                 <div className="signle-bar">
-                  <h6>Video Animation</h6>
+                  <h6>Inturder Alarms</h6>
                   <ProgressBar
                     // className="barsss"
                     bgColor="#D90A2C"

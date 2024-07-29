@@ -42,7 +42,7 @@ function AboutArea() {
                   </i>
                 </div>
                 <div className="msn-content">
-                  <h5>Our Mission</h5>
+                  <h5>Our Specialists</h5>
                   <p>
                   At Watch Security, we understand that every property and business is unique.
                   </p>
