@@ -23,33 +23,94 @@ function AboutArea() {
             <div className="about-left">
               <div className="title black">
                 <span>About us</span>
-                <h2 className="mb-15">At Watch Security, we understand that every property and business is unique.</h2>
+                <h2 className="mb-15">
+                  At Watch Security, we understand that every property and business is unique.
+                </h2>
               </div>
               <p>
-                At Watch Security, we understand that every property and business is unique. That’s why we take a personalised approach to security, working closely with our clients to assess their requirements and design customised solutions that address their specific concerns. Whether it’s installing state-of-the-art CCTV systems, access control solutions, or intruder alarms, we have the expertise to deliver reliable and effective security measures.
-
-                We pride ourselves on our commitment to customer satisfaction. Our team of engineers is not only highly skilled but also dedicated to providing exceptional service. We believe in building long-term relationships with our clients, offering ongoing support, maintenance, and monitoring services to ensure that their security systems operate optimally at all times.
-
-                At Watch Security, we stay at the forefront of technological advancements in the security industry. By partnering with leading manufacturers, we offer cutting-edge solutions that integrate seamlessly into our clients’ properties, providing them with advanced security features and remote monitoring capabilities.
+                At Watch Security, we understand that every property and business is unique. That’s why we take a
+                personalised approach to security, working closely with our clients to assess their requirements and
+                design customised solutions that address their specific concerns. Whether it’s installing
+                state-of-the-art CCTV systems, access control solutions, or intruder alarms, we have the expertise to
+                deliver reliable and effective security measures. We pride ourselves on our commitment to customer
+                satisfaction. Our team of engineers is not only highly skilled but also dedicated to providing
+                exceptional service. We believe in building long-term relationships with our clients, offering ongoing
+                support, maintenance, and monitoring services to ensure that their security systems operate optimally at
+                all times. At Watch Security, we stay at the forefront of technological advancements in the security
+                industry. By partnering with leading manufacturers, we offer cutting-edge solutions that integrate
+                seamlessly into our clients’ properties, providing them with advanced security features and remote
+                monitoring capabilities.
               </p>
               <div className="our-mission">
                 <div className="msn-icon">
                   <i>
-                    <img
-                      src="/images/about1.png"
-                      alt="images"
-                    />
+                    <img src="/images/about1.png" alt="images" />
                   </i>
                 </div>
-                <div className="msn-content">
-                  <h5>Our Mission</h5>
-                  <p>
-                  At Watch Security, we understand that every property and business is unique.
-                  </p>
+                <div className="msn-content w-full">
+                  <h5>Our Specialties</h5>
+                  <div className="flex justify-between">
+                    <div>
+                      <ul
+                        style={{
+                          listStyleType: "circle",
+                          paddingLeft: "0",
+                          paddingInlineStart: "1.5em",
+                        }}
+                      >
+                        <li>Trusted Security</li>
+                      </ul>
+                      <ul
+                        style={{
+                          listStyleType: "circle",
+                          paddingLeft: "0",
+                          paddingInlineStart: "1.5em",
+                        }}
+                      >
+                        <li>Quality Services</li>
+                      </ul>
+                      <ul
+                        style={{
+                          listStyleType: "circle",
+                          paddingLeft: "0",
+                          paddingInlineStart: "1.5em",
+                        }}
+                      >
+                        <li>Smart Systems</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <ul
+                        style={{
+                          listStyleType: "circle",
+                          paddingLeft: "0",
+                          paddingInlineStart: "1.5em",
+                        }}
+                      >
+                        <li>Control Room</li>
+                      </ul>
+                      <ul
+                        style={{
+                          listStyleType: "circle",
+                          paddingLeft: "0",
+                          paddingInlineStart: "1.5em",
+                        }}
+                      >
+                        <li>Always Honest</li>
+                      </ul>
+                      <ul
+                        style={{
+                          listStyleType: "circle",
+                          paddingLeft: "0",
+                          paddingInlineStart: "1.5em",
+                        }}
+                      >
+                        <li>24/7 Hours Support</li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
-                <div className="cto">
-                  {/* <img src="/images/ctoFounder.png" alt="imgs" /> */}
-                </div>
+                <div className="cto"></div>
               </div>
               <div className="cmn-btn">
                 <Link href="/about" passHref onClick={scrollTop}>
@@ -63,7 +124,7 @@ function AboutArea() {
               <div className="group-images">
                 <img src="/images/about3.png" alt="images" />
                 <div className="about-top">
-                  <img src="/images/about.jpg" alt="images" />
+                  {/* <img src="/images/about.jpg" alt="images" /> */}
                 </div>
                 <div className="about-skills">
                   <div className="signle-skill">
@@ -93,6 +154,83 @@ function AboutArea() {
             </div>
           </div>
         </div>
+
+        <section class="pricing-plan sec-mar">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-12 col-lg-6 col-xl-5 or1">
+            <div class="title black"><span>our Focus</span>
+              <h2>We always Focus on</h2>
+            </div>
+          </div>
+        </div>
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="row g-4">
+              <div class="col-md-6 col-lg-4 col-xl-4">
+                <div class="single-price-box">
+                  <h3>Home Security</h3><span></span>
+                  <ul class="feature-list">
+                    <li><i class="fas fa-check"></i>Experience Tranquility at Home: Elevate Security with Advanced Home
+                      Protection Solutions</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 col-xl-4">
+                <div class="single-price-box">
+                  <h3>Access Control</h3><span></span>
+                  <ul class="feature-list">
+                    <li><i class="fas fa-check"></i>Empower Access Control: Fortify Your Spaces with State-of-the-Art
+                      Security Solutions</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 col-xl-4">
+                <div class="single-price-box">
+                  <h3>24/7 Support</h3><span></span>
+                  <ul class="feature-list">
+                    <li><i class="fas fa-check"></i>Reliable 24/7 Support Around the Clock: Providing Assurance and
+                      Peace of Mind in Critical Moments.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <div class="row g-4">
+              <div class="col-md-6 col-lg-4 col-xl-4">
+                <div class="single-price-box">
+                  <h3>Home Security</h3><span></span>
+                  <ul class="feature-list">
+                    <li><i class="fas fa-check"></i>Experience Tranquility at Home: Elevate Security with Advanced Home
+                      Protection Solutions</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 col-xl-4">
+                <div class="single-price-box">
+                  <h3>Access Control</h3><span></span>
+                  <ul class="feature-list">
+                    <li><i class="fas fa-check"></i>Empower Access Control: Fortify Your Spaces with State-of-the-Art
+                      Security Solutions</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-4 col-xl-4">
+                <div class="single-price-box">
+                  <h3>24/7 Support</h3><span></span>
+                  <ul class="feature-list">
+                    <li><i class="fas fa-check"></i>Reliable 24/7 Support Around the Clock: Providing Assurance and
+                      Peace of Mind in Critical Moments.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
         <div className="features-count">
           <div className="row">
             <div className="col-sm-6 col-md-3 col-lg-3 col-xl-3">
@@ -142,7 +280,6 @@ function AboutArea() {
           </div>
         </div>
       </div>
-      
     </section>
   );
 }

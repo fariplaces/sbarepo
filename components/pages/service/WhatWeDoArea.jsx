@@ -188,29 +188,29 @@ function WhatWeDoArea() {
                     <img
                       src={
                         
-                        "/images/icons/service-icon-5.png"
+                        "/images/1.png"
                       }
                       alt="images"
                     />
                   </i>
                 </div>
                 <div className="service-content">
-                  <h4>Video Animation</h4>
+                  <h4>Customization Options</h4>
                   <p>
-                    interger purus adio, placerat ni in, ullamcorper nec dolor.
+                  These systems can be customized to meet specific security
                   </p>
                   <Link
                     onClick={scrollTop}
                     href={`/service-details`} passHref>
                     read more
                     <i>
-                      <img
+                      {/* <img
                         src={
                           
-                          "/images/icons/arrow-circle.png"
+                          "/images/2.png"
                         }
                         alt="images"
-                      />
+                      /> */}
                     </i>
                   </Link>
                 </div>
@@ -224,16 +224,16 @@ function WhatWeDoArea() {
                     <img
                       src={
                        
-                        "/images/icons/service-icon-6.png"
+                        "/images/3.png"
                       }
                       alt="images"
                     />
                   </i>
                 </div>
                 <div className="service-content">
-                  <h4>3D Design</h4>
+                  <h4>24/7 Property Protection</h4>
                   <p>
-                    interger purus adio, placerat ni in, ullamcorper nec dolor.
+                  High-definition Maintenance for residential and commercial
                   </p>
                   <Link
                     onClick={scrollTop}
@@ -267,9 +267,9 @@ function WhatWeDoArea() {
                   </i>
                 </div>
                 <div className="service-content">
-                  <h4>UI/UX Design</h4>
+                  <h4>Increased Privacy</h4>
                   <p>
-                    interger purus adio, placerat ni in, ullamcorper nec dolor.
+                  Electric gates provide an additional layer of privacy by restricting visibility
                   </p>
                   <Link
                     onClick={scrollTop}

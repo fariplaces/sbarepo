@@ -2,11 +2,11 @@ import React from "react";
 import LetsTalkArea from "../../common/LetsTalkArea";
 import TestimonialArea from "../../common/TestimonialArea";
 import WhyChooseUsArea from "../../common/WhyChooseUsArea";
-import HeroArea from "../Home/HeroArea";
-import NewsLatterArea from "../Home/NewsLatterArea";
-import OurPartnerArea from "../Home/OurPartnerArea";
-import PortfolioArea from "../Home/PortfolioArea";
-import ServiceArea from "../Home/ServiceArea";
+import HeroArea from "../home/HeroArea";
+import NewsLatterArea from "../home/NewsLatterArea";
+import OurPartnerArea from "../home/OurPartnerArea";
+import PortfolioArea from "../home/PortfolioArea";
+import ServiceArea from "../home/ServiceArea";
 import About2Area from "./About2Area";
 
 function HomePage2(props) {

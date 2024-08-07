@@ -7,6 +7,7 @@ import "swiper/css/effect-fade";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
+// Configure Swiper to use modules
 SwiperCore.use([Autoplay, EffectFade, Navigation, Pagination]);
 
 function HeroArea() {
@@ -53,7 +54,7 @@ function HeroArea() {
                   <div className="hero-content-wrapper">
                     <div className="hero-content-wrap">
                       <div className="hero-content-img">
-                        <img src="/images/hero1.jpg" alt="images" />
+                        <img src="/images/hero1.jpg" alt="Hero 1" />
                       </div>
                       <div className="hero-content">
                         <h2>Creative</h2>
@@ -63,11 +64,11 @@ function HeroArea() {
                         <p>
                           Welcome to Watch Security Limited, the experts in electronic security systems and electric gates installation across the UK!
                         </p>
-                        <Link href="/about" passHref className="about-btn" onClick={scrollTop}>
-                          About us
+                        <Link href="/about" passHref>
+                          <span className="about-btn" onClick={scrollTop}>About us</span>
                         </Link>
-                        <Link href="/project-details" passHref className="work-btn" onClick={scrollTop}>
-                          View Services
+                        <Link href="/project-details" passHref>
+                          <span className="work-btn" onClick={scrollTop}>View Services</span>
                         </Link>
                         <div className="slider-num">
                           <span>01</span>
@@ -86,7 +87,7 @@ function HeroArea() {
                   <div className="hero-content-wrapper">
                     <div className="hero-content-wrap">
                       <div className="hero-content-img">
-                        <img src="/images/hero2.webp" alt="images" />
+                        <img src="/images/hero2.png" alt="Hero 2" />
                       </div>
                       <div className="hero-content">
                         <h2>Creative</h2>
@@ -96,11 +97,11 @@ function HeroArea() {
                         <p>
                           Welcome to Watch Security Limited, the experts in electronic security systems and electric gates installation across the UK!
                         </p>
-                        <Link href="/about" passHref className="about-btn" onClick={scrollTop}>
-                          About us
+                        <Link href="/about" passHref>
+                          <span className="about-btn" onClick={scrollTop}>About us</span>
                         </Link>
-                        <Link href="/project-details" passHref className="work-btn" onClick={scrollTop}>
-                          View Services
+                        <Link href="/project-details" passHref>
+                          <span className="work-btn" onClick={scrollTop}>View Services</span>
                         </Link>
                         <div className="slider-num">
                           <span>02</span>
@@ -119,7 +120,7 @@ function HeroArea() {
                   <div className="hero-content-wrapper">
                     <div className="hero-content-wrap">
                       <div className="hero-content-img">
-                        <img src="/images/hero3.jpg" alt="images" />
+                        <img src="/images/aboutt.png" alt="Hero 3" />
                       </div>
                       <div className="hero-content">
                         <h2>Creative</h2>
@@ -129,11 +130,11 @@ function HeroArea() {
                         <p>
                           Welcome to Watch Security Limited, the experts in electronic security systems and electric gates installation across the UK!
                         </p>
-                        <Link href="/about" passHref className="about-btn" onClick={scrollTop}>
-                          About us
+                        <Link href="/about" passHref>
+                          <span className="about-btn" onClick={scrollTop}>About us</span>
                         </Link>
-                        <Link href="/project-details" passHref className="work-btn" onClick={scrollTop}>
-                          View Services
+                        <Link href="/project-details" passHref>
+                          <span className="work-btn" onClick={scrollTop}>View Services</span>
                         </Link>
                         <div className="slider-num">
                           <span>03</span>

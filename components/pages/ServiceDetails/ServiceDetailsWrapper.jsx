@@ -161,7 +161,7 @@ Efficiently manage employee access and attendance with integrated systems that e
             </div>
           </div>
           <div className="single-service-work-process">
-            <h3>How We Work in our services</h3>
+            <h3> maintanance</h3>
             <div className="single-step">
               <div className="row">
                 <div className="col-md-8 col-xl-8 or2">
@@ -169,23 +169,22 @@ Efficiently manage employee access and attendance with integrated systems that e
                     <div className="step-count">
                       <span>01</span>
                     </div>
-                    <h4>Wireframe &amp; Design</h4>
+                    <h4>Our Maintenance  &amp; services</h4>
                     <p>
-                      In euismod lacinia rhoncus. Morbi ornare, lectus quis
-                      mattis finibus, metus sapien venenatis orci, eget lacinia
-                      magna justo vehiculametus. Morbi sit amet erat faucibus,
-                      sagittis libero sed, condimentum tortor. Aenean ac nunc
-                      dolor. Quisque vestibulum mollis nisi, vel dictum nisi.
-                      Vestibulum tempor tristique neque non pretium. Etiam leo
-                      risus, consectetur sagittis ullamcorper scelerisque,
-                      blandit vitae sem.
+                    Maintenance
+At Watch Security, we offer a complete suite of services encompassing full assessment, installation, maintenance, and repair for domestic and commercial systems. Recognizing maintenance's critical role in preventing injury or death in fire situations. We urge everyone to ensure their fire alarm systems meet the relevant regulations and undergo regular maintenance.
+
+Home Security,
+24/7 Support,
+Access Control,
+Emergency Lighting.
                     </p>
                   </div>
                 </div>
                 <div className="col-md-4 col-xl-4 or1">
                   <div className="step-img">
                     <img
-                      src={ "/images/step-1.png"}
+                      src={ "/images/cctv.png"}
                       alt="images"
                     />
                   </div>
@@ -197,7 +196,7 @@ Efficiently manage employee access and attendance with integrated systems that e
                 <div className="col-md-4 col-xl-4">
                   <div className="step-img">
                     <img
-                      src={ "/images/step-2.jpg"}
+                      src={ "/images/newestpost.png"}
                       alt="images"
                     />
                   </div>
@@ -207,16 +206,9 @@ Efficiently manage employee access and attendance with integrated systems that e
                     <div className="step-count">
                       <span>02</span>
                     </div>
-                    <h4>Developing</h4>
+                    <h4>Our Gates and barriers services</h4>
                     <p>
-                      In euismod lacinia rhoncus. Morbi ornare, lectus quis
-                      mattis finibus, metus sapien venenatis orci, eget lacinia
-                      magna justo vehiculametus. Morbi sit amet erat faucibus,
-                      sagittis libero sed, condimentum tortor. Aenean ac nunc
-                      dolor. Quisque vestibulum mollis nisi, vel dictum nisi.
-                      Vestibulum tempor tristique neque non pretium. Etiam leo
-                      risus, consectetur sagittis ullamcorper scelerisque,
-                      blandit vitae sem.
+                    Professional consultation to assess the property's security needs and recommend suitable electric gate and barrier solutions. Site evaluation to determine the most effective placement and type of gate or barrier.Expert installation of electric gates and barriers, including all necessary components such as motors, sensors, control panels, and access devices. Customization of gates and barriers to fit the property's aesthetic and functional requirements.Automation of gate and barrier systems for remote operation via keypads, remote controls, or smartphone applications. Integration with access control systems, intercoms, security cameras, and other security features for comprehensive control and monitoring.
                     </p>
                   </div>
                 </div>
@@ -229,23 +221,19 @@ Efficiently manage employee access and attendance with integrated systems that e
                     <div className="step-count">
                       <span>03</span>
                     </div>
-                    <h4>Checkup &amp; Launch</h4>
+                    <h4>Our Fire Alarm Systems  &amp; Services</h4>
                     <p>
-                      In euismod lacinia rhoncus. Morbi ornare, lectus quis
-                      mattis finibus, metus sapien venenatis orci, eget lacinia
-                      magna justo vehiculametus. Morbi sit amet erat faucibus,
-                      sagittis libero sed, condimentum tortor. Aenean ac nunc
-                      dolor. Quisque vestibulum mollis nisi, vel dictum nisi.
-                      Vestibulum tempor tristique neque non pretium. Etiam leo
-                      risus, consectetur sagittis ullamcorper scelerisque,
-                      blandit vitae sem.
+                    Benefit from state-of-the-art fire detection technology for early identification of potential hazards.Receive instant alerts through our alarm notification systems, ensuring swift response in critical situations.Seamlessly connect your fire alarm systems with emergency services for a coordinated and rapid response.Rest assured that our fire alarm systems meet and exceed the latest safety regulations, ensuring your premises are fully compliant.Choose Watch Security for Fire Alarm Systems that prioritize safety and peace of mind. Our solutions are tailored to meet the highest safety standards, safeguarding your property and those within it. [Contact Us] to discuss how our Fire Alarm Systems can enhance the safety measures of your premises.
+Detect fire hazards at the earliest stage, preventing escalation.
+Our efficient alarm notification systems ensure a rapid response to emergencies.
+Stay compliant with safety standards, providing a secure environment for occupants.
                     </p>
                   </div>
                 </div>
                 <div className="col-md-4 col-xl-4 or1">
                   <div className="step-img">
                     <img
-                      src={ "/images/step-3.jpg"}
+                      src={ "/images/fire.png"}
                       alt="images"
                     />
                   </div>

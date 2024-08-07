@@ -2,7 +2,7 @@
 
 import Footer from "../common/Footer";
 import Header from "../common/Header";
-import HomePage from "../pages/Home/HomePage";
+import HomePage from "../pages/home/HomePage";
 
 function MainLayout() {
   return (

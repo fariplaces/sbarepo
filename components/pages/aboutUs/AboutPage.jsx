@@ -3,7 +3,7 @@ import Breadcrumb from "../../common/Breadcrumb";
 import LetsTalkArea from "../../common/LetsTalkArea";
 import TestimonialArea from "../../common/TestimonialArea";
 import WhyChooseUsArea from "../../common/WhyChooseUsArea";
-import AboutArea from "../Home/AboutArea";
+import AboutArea from "../home/AboutArea";
 import InsideStoryArea from "./InsideStoryArea";
 import LatesNewsArea from "./LatesNewsArea";
 
@@ -21,7 +21,7 @@ function AboutPage() {
       <AboutArea />
       <TestimonialArea />
       <WhyChooseUsArea black="black" lable="" />
-      <LatesNewsArea />
+      {/* <LatesNewsArea /> */}
       <LetsTalkArea />
     </>
   );

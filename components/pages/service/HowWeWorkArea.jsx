@@ -30,7 +30,7 @@ function HowWeWorkArea() {
             <div className="col-md-8 col-xl-4">
               <div className="title black">
                 <span>How We Work</span>
-                <h2>Our Unique watch security Process.</h2>
+                <h2>Our Unique Work Process.</h2>
               </div>
             </div>
           </div>
@@ -42,14 +42,14 @@ function HowWeWorkArea() {
                     <div className="work-process-wrapper">
                       <img
                         src={
-                         
-                          "/images/hero3.jpg"
+                          process.env.PUBLIC_URL +
+                          "/images/work-process-slider-1.png"
                         }
                         alt="images"
                       />
                       <div className="work-process-inner">
                         <b>01</b>
-                        <h4>Watch &amp; Security</h4>
+                        <h4>Brainstorm &amp; Wirefirm</h4>
                       </div>
                     </div>
                   </SwiperSlide>
@@ -57,14 +57,14 @@ function HowWeWorkArea() {
                     <div className="work-process-wrapper">
                       <img
                         src={
-                         
-                          "/images/headerimg1.webp"
+                          process.env.PUBLIC_URL +
+                          "/images/work-process-slider-2.jpg"
                         }
                         alt="images"
                       />
                       <div className="work-process-inner">
                         <b>02</b>
-                        <h4>Watch &amp; Security</h4>
+                        <h4>Brainstorm &amp; Wirefirm</h4>
                       </div>
                     </div>
                   </SwiperSlide>
